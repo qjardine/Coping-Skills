@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 import { useRouter } from 'next/navigation';
 import { NextButton } from '@/components/shared/NextButton';
@@ -8,11 +9,11 @@ export default function BodyScan15MinPage() {
   const router = useRouter();
 
   const handleNext = () => {
-    router.push('/feelings');
+    router.push('/pages/flowchart/feelings');
   };
 
   const handleBack = () => {
-    router.push('/body-scan');
+    router.push('/pages/mindfulness/body-scan/how-long');
   };
 
   return (
@@ -20,7 +21,7 @@ export default function BodyScan15MinPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            15 Minute Body Scan
+            15 Minute <Link href="/pages/mindfulness/body-scan" className="text-blue-600 hover:text-blue-800 underline">Body Scan</Link>
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -48,7 +49,7 @@ export default function BodyScan15MinPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step 2 — Lower body scan (about 5 minutes)
+                Step 2 — Lower <Link href="/pages/mindfulness/body-scan" className="text-blue-600 hover:text-blue-800 underline">body scan</Link> (about 5 minutes)
               </h2>
               <p className="mb-3 text-gray-700">
                 Start at the ground contact:
@@ -96,7 +97,7 @@ export default function BodyScan15MinPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step 3 — Upper body scan (about 5 minutes)
+                Step 3 — Upper <Link href="/pages/mindfulness/body-scan" className="text-blue-600 hover:text-blue-800 underline">body scan</Link> (about 5 minutes)
               </h2>
               <ol className="list-decimal list-inside space-y-4 text-gray-700 ml-4">
                 <li>
@@ -173,7 +174,7 @@ export default function BodyScan15MinPage() {
               <p className="mb-3 text-gray-700">
                 Feel your whole body as one connected shape.
                 <br />
-                Notice your breathing.
+                Notice your <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link>.
               </p>
               <p className="text-gray-700">
                 Take one slow breath in… and a longer breath out.
@@ -194,7 +195,7 @@ export default function BodyScan15MinPage() {
                 <li>One kind action I can take next: ___ (water, stretch, snack, rest, warmth)</li>
               </ul>
               <p className="mt-4 text-gray-700">
-                <strong>Safety option (any time):</strong> open your eyes, feel your feet, and name 5 things you see / 4 things you feel. You can stop whenever you want.
+                <strong>Safety option (any time):</strong> open your eyes, feel your feet, and name 5 things you see / 4 things you feel. You can <Link href="/pages/distress-tolerance/stop" className="text-blue-600 hover:text-blue-800 underline">stop</Link> whenever you want.
               </p>
             </div>
           </div>

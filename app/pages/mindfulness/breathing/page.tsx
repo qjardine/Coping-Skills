@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 import { useRouter } from 'next/navigation';
 import { BackButton } from '@/components/shared/BackButton';
@@ -11,7 +12,7 @@ export default function BreathingPage() {
   };
 
   const handleReturnToLanding = () => {
-    router.push('/landing-page');
+    router.push('/pages/landing-page');
   };
 
   return (
@@ -19,19 +20,19 @@ export default function BreathingPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            Breathing Exercises (DBT Mindfulness) — Conscious Breathing
+            <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link> Exercises (DBT Mindfulness) — Conscious <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link>
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
-                One simple way to practice mindfulness and one-mindfully is to practice breathing on purpose. Your breathing happens all the time—but most of the time it isn't conscious. In DBT, bringing attention to your breath is a reliable way to bring your mind and body back together.
+                One simple way to practice mindfulness and one-mindfully is to practice <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> on purpose. Your <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> happens all the time—but most of the time it isn't conscious. In DBT, bringing attention to your breath is a reliable way to bring your mind and body back together.
               </p>
               <p className="text-gray-700 mb-4">
                 Thich Nhat Hanh teaches a classic breath practice that Marsha Linehan references with respect in DBT contexts:
               </p>
               <p className="text-gray-700 font-semibold ml-4">
-                "Breathing in, I know that I am breathing in… Breathing out, I know that I am breathing out."
+                "<Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link> in, I know that I am <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> in… <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link> out, I know that I am <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> out."
               </p>
             </div>
 
@@ -44,17 +45,17 @@ export default function BreathingPage() {
                 <li>come back to the present moment</li>
                 <li>lower physical tension</li>
                 <li>ride out a wave of emotion without acting on it</li>
-                <li>support Radical Acceptance (with half-smile / willing hands)</li>
+                <li>support <Link href="/pages/interpersonal-skills/radical-acceptance" className="text-blue-600 hover:text-blue-800 underline">Radical Acceptance</Link> (with <Link href="/pages/distress-tolerance/willingness-half-smile" className="text-blue-600 hover:text-blue-800 underline">half-smile</Link> / willing hands)</li>
                 <li>help your nervous system settle enough to choose your next skill</li>
               </ul>
               <p className="text-gray-700 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-                <strong>Important note:</strong> Some people feel panicky with deep breathing. If that happens, use the "exhale-first" option below and keep breaths small and gentle.
+                <strong>Important note:</strong> Some people feel panicky with deep <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link>. If that happens, use the "exhale-first" option below and keep breaths small and gentle.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step-by-step: Pick one breathing practice
+                Step-by-step: Pick one <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> practice
               </h2>
 
               <div className="mb-6">
@@ -75,7 +76,7 @@ export default function BreathingPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option A: "In / Out" Conscious Breathing (easiest, very gentle)
+                  Option A: "In / Out" Conscious <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link> (easiest, very gentle)
                 </h3>
                 <p className="text-gray-700 mb-3 text-sm italic">
                   This is the Thich Nhat Hanh practice.
@@ -85,7 +86,7 @@ export default function BreathingPage() {
                   <li>Breathe in naturally and think: "In."</li>
                   <li>Breathe out naturally and think: "Out."</li>
                   <li>Keep it simple. When your mind wanders, gently return to In / Out.</li>
-                  <li>If it helps, add a tiny half-smile on the exhale.</li>
+                  <li>If it helps, add a tiny <Link href="/pages/distress-tolerance/willingness-half-smile" className="text-blue-600 hover:text-blue-800 underline">half-smile</Link> on the exhale.</li>
                 </ol>
                 <p className="text-gray-700 mt-3 text-sm italic">
                   Why this works: it gives your mind one small, steady anchor—your breath.
@@ -94,10 +95,10 @@ export default function BreathingPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option B: Belly Breathing (diaphragmatic breathing)
+                  Option B: Belly <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link> (diaphragmatic <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link>)
                 </h3>
                 <p className="text-gray-700 mb-3">
-                  Diaphragmatic breathing is also called abdominal/belly breathing—your belly rises and falls more than your upper chest.
+                  Diaphragmatic <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> is also called abdominal/belly <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link>—your belly rises and falls more than your upper chest.
                 </p>
                 <p className="text-gray-700 mb-2 font-medium">Steps (2–5 minutes)</p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
@@ -111,13 +112,13 @@ export default function BreathingPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option C: DBT Paced Breathing (best for "revved up" emotion)
+                  Option C: DBT Paced <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">Breathing</Link> (best for "revved up" emotion)
                 </h3>
                 <p className="text-gray-700 mb-3">
-                  DBT crisis survival skills often teach paced breathing:
+                  DBT crisis survival skills often teach paced <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link>:
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-3">
-                  <li>slow your breathing down (about 5–6 breaths per minute)</li>
+                  <li>slow your <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> down (about 5–6 breaths per minute)</li>
                   <li>and make the exhale longer than the inhale (example: 5 seconds in, 7 seconds out)</li>
                 </ul>
                 <p className="text-gray-700 mb-2 font-medium">Steps (2–4 minutes)</p>
@@ -131,7 +132,7 @@ export default function BreathingPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option D: If deep breathing causes panic (Exhale-first)
+                  Option D: If deep <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link> causes panic (Exhale-first)
                 </h3>
                 <p className="text-gray-700 mb-3">
                   Some people find panic eases if they exhale first, then inhale.
@@ -154,7 +155,7 @@ export default function BreathingPage() {
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                   <li><strong>Observe:</strong> notice air moving in/out</li>
-                  <li><strong>Describe:</strong> "warm," "cool," "tight chest," "soft belly," "fast," "slowing"</li>
+                  <li><strong>Describe:</strong> "warm," "cool," "tight chest," "soft belly," "<Link href="/pages/interpersonal-skills/fast" className="text-blue-600 hover:text-blue-800 underline">fast</Link>," "slowing"</li>
                   <li><strong>Return:</strong> when your mind drifts, come back gently—no scolding</li>
                 </ul>
               </div>
@@ -182,7 +183,7 @@ export default function BreathingPage() {
                   <li>Distress now: __/10</li>
                 </ul>
                 <p className="text-gray-700">
-                  Even a 1-point drop is a win. If you're steadier, choose your next skill (Check the Facts, DEAR MAN, Problem Solving, Self-Soothing, etc.).
+                  Even a 1-point drop is a win. If you're steadier, choose your next skill (<Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link>, DEAR MAN, <Link href="/pages/flowchart/problem-solve" className="text-blue-600 hover:text-blue-800 underline">Problem Solving</Link>, Self-Soothing, etc.).
                 </p>
               </div>
 
@@ -193,7 +194,7 @@ export default function BreathingPage() {
                 <p className="text-gray-700 mb-2">Once a day:</p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                   <li>1 minute of In / Out, or</li>
-                  <li>10 breaths of paced breathing</li>
+                  <li>10 breaths of paced <Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">breathing</Link></li>
                 </ul>
                 <p className="text-gray-700 mt-3">
                   Practicing when you're "okay" makes it easier to use when you're not.

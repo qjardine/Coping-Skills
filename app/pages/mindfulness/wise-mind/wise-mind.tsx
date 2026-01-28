@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 import { useRouter } from 'next/navigation';
 import { BackButton } from '@/components/shared/BackButton';
@@ -11,7 +12,7 @@ export default function WiseMindPage() {
   };
 
   const handleReturnToLanding = () => {
-    router.push('/landing-page');
+    router.push('/pages/landing-page');
   };
 
   return (
@@ -19,7 +20,7 @@ export default function WiseMindPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            Wise Mind (DBT) — finding the "centered" place inside you
+            <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> (DBT) — finding the "centered" place inside you
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -33,10 +34,10 @@ export default function WiseMindPage() {
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
                 <li><strong>Emotion Mind</strong> (hot, feeling-driven)</li>
                 <li><strong>Reasonable/Rational Mind</strong> (cool, logic-only)</li>
-                <li><strong>Wise Mind</strong> (the overlap: values + facts + feelings together)</li>
+                <li><strong><Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link></strong> (the overlap: values + facts + feelings together)</li>
               </ul>
               <p className="text-gray-700">
-                Marsha Linehan describes Wise Mind as: "that part of each person that can know and experience truth… almost always quiet… a certain peace… centered."
+                Marsha Linehan describes <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> as: "that part of each person that can know and experience truth… almost always quiet… a certain peace… centered."
               </p>
             </div>
 
@@ -55,7 +56,7 @@ export default function WiseMindPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step-by-step: Find Wise Mind
+                Step-by-step: Find <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link>
               </h2>
 
               <div className="mb-6">
@@ -96,7 +97,7 @@ export default function WiseMindPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Step 2 — Do a 30-second "Wise Mind doorway"
+                  Step 2 — Do a 30-second "<Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> doorway"
                 </h3>
                 <p className="text-gray-700 mb-3">Pick one option:</p>
 
@@ -110,7 +111,7 @@ export default function WiseMindPage() {
                 </div>
 
                 <div>
-                  <p className="text-gray-700 font-medium mb-2">Option B: Half-smile + willing hands</p>
+                  <p className="text-gray-700 font-medium mb-2">Option B: <Link href="/pages/distress-tolerance/willingness-half-smile" className="text-blue-600 hover:text-blue-800 underline">Half-smile</Link> + willing hands</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>soften your face slightly (not forced)</li>
                     <li>rest hands open on your lap</li>
@@ -144,7 +145,7 @@ export default function WiseMindPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Step 4 — Ask Wise Mind 3 questions (1 minute)
+                  Step 4 — Ask <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> 3 questions (1 minute)
                 </h3>
                 <p className="text-gray-700 mb-3">
                   Wise Mind includes emotion and reason, plus values and long-term clarity. It often feels quieter and more "centered."
@@ -156,13 +157,13 @@ export default function WiseMindPage() {
                   <li>"If I wasn't trying to avoid discomfort, what would I do?"</li>
                 </ol>
                 <p className="text-gray-700 mt-3 text-sm italic">
-                  If an answer comes as a gentle "knowing" (even reluctant), that may be Wise Mind.
+                  If an answer comes as a gentle "knowing" (even reluctant), that may be <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link>.
                 </p>
               </div>
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Step 5 — Look for the "Wise Mind signal" (30 seconds)
+                  Step 5 — Look for the "<Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> signal" (30 seconds)
                 </h3>
                 <p className="text-gray-700 mb-3">
                   Wise Mind can feel different for different people, but many describe:
@@ -174,29 +175,29 @@ export default function WiseMindPage() {
                 </ul>
                 <p className="text-gray-700 mb-2 font-medium">Write one sentence:</p>
                 <p className="text-gray-700 ml-4 mb-3">
-                  "My Wise Mind says the next right step is ___."
+                  "My <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> says the next right step is ___."
                 </p>
                 <p className="text-gray-700 mb-2">Keep it small:</p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                   <li>one text draft</li>
                   <li>one boundary sentence</li>
                   <li>one glass of water + pause</li>
-                  <li>one request using DEAR MAN</li>
+                  <li>one request using <Link href="/pages/interpersonal-skills/dear-man" className="text-blue-600 hover:text-blue-800 underline">DEAR MAN</Link></li>
                 </ul>
               </div>
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Step 6 — If you can't access Wise Mind yet (still valid)
+                  Step 6 — If you can't access <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> yet (still valid)
                 </h3>
                 <p className="text-gray-700 mb-3">If you feel flooded, numb, or confused:</p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
-                  <li>choose a grounding skill (paced breathing / self-soothe)</li>
+                  <li>choose a grounding skill (paced breathing / <Link href="/pages/distress-tolerance/soothe" className="text-blue-600 hover:text-blue-800 underline">self-soothe</Link>)</li>
                   <li>postpone big decisions</li>
-                  <li>return to Wise Mind later</li>
+                  <li>return to <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> later</li>
                 </ol>
                 <p className="text-gray-700 mt-3 text-sm italic">
-                  DBT assumes Wise Mind is always there—but access can be blocked by overwhelm. Practice helps.
+                  DBT assumes <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> is always there—but access can be blocked by overwhelm. Practice helps.
                 </p>
               </div>
 
@@ -210,12 +211,12 @@ export default function WiseMindPage() {
                 </p>
                 <p className="text-gray-700 mb-2">When it goes off:</p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
-                  <li>"Emotion Mind / Reasonable Mind / Wise Mind?"</li>
+                  <li>"Emotion Mind / Reasonable Mind / <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link>?"</li>
                   <li>Name one feeling + one fact</li>
                   <li>Let it go and return to the moment</li>
                 </ol>
                 <p className="text-gray-700 mt-3">
-                  This trains the "find Wise Mind faster" muscle.
+                  This trains the "find <Link href="/pages/mindfulness/wise-mind" className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link> faster" muscle.
                 </p>
               </div>
             </div>

@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 import { useRouter } from 'next/navigation';
 import { NextButton } from '@/components/shared/NextButton';
@@ -8,11 +9,11 @@ export default function BodyScan1MinPage() {
   const router = useRouter();
 
   const handleNext = () => {
-    router.push('/feelings');
+    router.push('/pages/flowchart/feelings');
   };
 
   const handleBack = () => {
-    router.push('/body-scan');
+    router.push('/pages/mindfulness/body-scan/how-long');
   };
 
   return (
@@ -20,7 +21,7 @@ export default function BodyScan1MinPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            1 Minute Body Scan
+            1 Minute <Link href="/pages/mindfulness/body-scan" className="text-blue-600 hover:text-blue-800 underline">Body Scan</Link>
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">

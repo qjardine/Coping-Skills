@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 import { useRouter } from 'next/navigation';
 import { BackButton } from '@/components/shared/BackButton';
@@ -11,7 +12,7 @@ export default function EmotionalRegulationPage() {
   };
 
   const handleReturnToLanding = () => {
-    router.push('/landing-page');
+    router.push('/pages/landing-page');
   };
 
   return (
@@ -49,9 +50,9 @@ export default function EmotionalRegulationPage() {
                     Understanding Emotions
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                    <li><a href="/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</a> - Separate facts from interpretations</li>
-                    <li><a href="/emotional-regulation/cognitive-vulnerability" className="text-blue-600 hover:text-blue-800 underline">Cognitive Vulnerability</a> - Notice distorted thoughts</li>
-                    <li><a href="/emotional-regulation/mental-noting" className="text-blue-600 hover:text-blue-800 underline">Mental Noting & Thought Defusion</a> - Unhook from thoughts</li>
+                    <li><Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link> - Separate facts from interpretations</li>
+                    <li><Link href="/pages/emotional-regulation/cognitive-vulnerability" className="text-blue-600 hover:text-blue-800 underline">Cognitive Vulnerability</Link> - Notice distorted thoughts</li>
+                    <li><a href="/emotional-regulation/mental-noting" className="text-blue-600 hover:text-blue-800 underline"><Link href="/pages/emotional-regulation/mental-noting" className="text-blue-600 hover:text-blue-800 underline">Mental Noting</Link> & Thought Defusion</a> - Unhook from thoughts</li>
                   </ul>
                 </div>
 
@@ -60,9 +61,9 @@ export default function EmotionalRegulationPage() {
                     Changing Emotions
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                    <li><a href="/emotional-regulation/opposite-action" className="text-blue-600 hover:text-blue-800 underline">Opposite Action</a> - Act opposite to emotion urges</li>
-                    <li><a href="/emotional-regulation/letting-go" className="text-blue-600 hover:text-blue-800 underline">Letting Go</a> - Ride the wave of emotions</li>
-                    <li><a href="/problem-solve" className="text-blue-600 hover:text-blue-800 underline">Problem Solving</a> - Change the situation</li>
+                    <li><Link href="/pages/emotional-regulation/opposite-action" className="text-blue-600 hover:text-blue-800 underline">Opposite Action</Link> - Act opposite to emotion urges</li>
+                    <li><Link href="/pages/emotional-regulation/letting-go" className="text-blue-600 hover:text-blue-800 underline">Letting Go</Link> - Ride the wave of emotions</li>
+                    <li><Link href="/pages/flowchart/problem-solve" className="text-blue-600 hover:text-blue-800 underline">Problem Solving</Link> - Change the situation</li>
                   </ul>
                 </div>
 
@@ -71,19 +72,19 @@ export default function EmotionalRegulationPage() {
                     Reducing Vulnerability
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                    <li><a href="/self-care" className="text-blue-600 hover:text-blue-800 underline">Self-Care</a> - Take care of your body (PLEASE skills)</li>
-                    <li><a href="/emotional-regulation/pleasant-activities" className="text-blue-600 hover:text-blue-800 underline">Pleasant Activities</a> - Build positive experiences</li>
-                    <li><a href="/emotional-regulation/build-mastery" className="text-blue-600 hover:text-blue-800 underline">Build Mastery</a> - Feel capable</li>
-                    <li><a href="/emotional-regulation/cope-ahead" className="text-blue-600 hover:text-blue-800 underline">Cope Ahead</a> - Prepare for difficult situations</li>
+                    <li><Link href="/pages/self-care" className="text-blue-600 hover:text-blue-800 underline">Self-Care</Link> - Take care of your body (<Link href="/pages/emotional-regulation/abc-please" className="text-blue-600 hover:text-blue-800 underline">PLEASE</Link> skills)</li>
+                    <li><Link href="/pages/emotional-regulation/pleasant-activities" className="text-blue-600 hover:text-blue-800 underline">Pleasant Activities</Link> - Build positive experiences</li>
+                    <li><Link href="/pages/emotional-regulation/build-mastery" className="text-blue-600 hover:text-blue-800 underline">Build Mastery</Link> - Feel capable</li>
+                    <li><Link href="/pages/emotional-regulation/cope-ahead" className="text-blue-600 hover:text-blue-800 underline">Cope Ahead</Link> - Prepare for difficult situations</li>
                   </ul>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-gray-800">
-                    Being Effective
+                    <Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">Being Effective</Link>
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                    <li><a href="/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">Being Effective</a> - Focus on what works</li>
+                    <li><Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">Being Effective</Link> - Focus on what works</li>
                     <li><a href="/positive-self-talk" className="text-blue-600 hover:text-blue-800 underline">Positive Self-Talk</a> - Challenge negative thoughts</li>
                   </ul>
                 </div>
@@ -92,7 +93,7 @@ export default function EmotionalRegulationPage() {
 
             <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
               <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                ABC PLEASE
+                <Link href="/pages/emotional-regulation/abc-please" className="text-blue-600 hover:text-blue-800 underline">ABC <Link href="/pages/emotional-regulation/abc-please" className="text-blue-600 hover:text-blue-800 underline">PLEASE</Link></Link>
               </h3>
               <p className="text-gray-700 mb-2">
                 DBT's framework for reducing emotional vulnerability:
@@ -114,12 +115,30 @@ export default function EmotionalRegulationPage() {
       </div>
 
       <BackButton onClick={handleBack} />
-      <button
-        onClick={handleReturnToLanding}
-        className="fixed bottom-6 right-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-200 z-50"
-      >
-        Return to Landing
-      </button>
+      <div className="fixed bottom-16 md:bottom-20 right-0 md:right-6 flex flex-col gap-2 z-50 w-full md:w-auto">
+        <a
+          href="/assets/Worksheets/er-troubleshooting.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 md:px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-200 text-center"
+        >
+          Troubleshooting Emotional Regulation
+        </a>
+        <a
+          href="/assets/Worksheets/er-troubleshooting-interact.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 md:px-6 py-3 bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-200 text-center"
+        >
+          Troubleshooting Emotional Regulation (Interactive)
+        </a>
+        <button
+          onClick={handleReturnToLanding}
+          className="px-4 md:px-6 py-3 bg-gray-600 hover:bg-gray-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-200"
+        >
+          Return to Landing
+        </button>
+      </div>
     </div>
   );
 }
