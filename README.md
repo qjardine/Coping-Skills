@@ -1,6 +1,6 @@
 # Coping Skills
 
-An interactive web application for exploring coping skills and strategies through a feelings-based flowchart.
+An interactive DBT (Dialectical Behavior Therapy) coping skills application with 120+ pages covering mindfulness, distress tolerance, emotional regulation, interpersonal skills, and crisis support.
 
 ## Getting Started
 
@@ -17,6 +17,10 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Deployment
+
+For deploying to Cloudflare Pages, see [CLOUDFLARE_DEPLOYMENT.md](./CLOUDFLARE_DEPLOYMENT.md) for detailed instructions on configuring Node.js compatibility flags.
 
 ## Project Structure
 

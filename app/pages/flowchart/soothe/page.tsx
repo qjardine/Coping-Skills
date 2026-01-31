@@ -47,7 +47,7 @@ export default function SoothePage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/flowchart/soothe" className="text-blue-600 hover:text-blue-800 underline">Self-Soothe</Link>
+            Self-Soothe
           </h1>
 
           <div className="bg-white backdrop-blur-sm rounded-lg border border-gray-200 p-8 shadow-lg space-y-6">
@@ -75,7 +75,7 @@ export default function SoothePage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step-by-step: <Link href="/pages/flowchart/soothe" className="text-blue-600 hover:text-blue-800 underline">Self-Soothe</Link> in the moment
+                Step-by-step: Self-Soothe in the moment
               </h2>
 
               <div className="mb-6">
@@ -161,7 +161,7 @@ export default function SoothePage() {
 
               <div>
                 <h3 className="text-xl font-semibold mb-4 text-gray-800">
-                  <Link href="/pages/flowchart/soothe" className="text-blue-600 hover:text-blue-800 underline">Self-Soothe</Link> ideas by sense (pick 1–2)
+                  Self-Soothe ideas by sense (pick 1–2)
                 </h3>
 
                 <div className="mb-6">
@@ -265,7 +265,7 @@ export default function SoothePage() {
                 <div className="mb-4">
                   <p className="text-gray-700 font-medium mb-2">"I need someone else to soothe me."</p>
                   <p className="text-gray-700">
-                    Wanting support is real. But <Link href="/pages/flowchart/soothe" className="text-blue-600 hover:text-blue-800 underline">Self-Soothe</Link> is about building an option you can do anytime, even when no one is available.
+                    Wanting support is real. But Self-Soothe is about building an option you can do anytime, even when no one is available.
                   </p>
                 </div>
 

@@ -19,13 +19,13 @@ export default function PleasantActivitiesPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/emotional-regulation/pleasant-activities" className="text-blue-600 hover:text-blue-800 underline">Pleasant Activities</Link> Menu
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
+            Pleasant Activities Menu
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Level 1: Ultra-practical (0–5 min, low/no cost)
               </h2>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -48,7 +48,7 @@ export default function PleasantActivitiesPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Level 2: Practical (5–30 min, minimal setup)
               </h2>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -70,7 +70,7 @@ export default function PleasantActivitiesPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Level 3: Medium practical (30–120 min, some planning)
               </h2>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -90,7 +90,7 @@ export default function PleasantActivitiesPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Level 4: Big practical (weekend-energy, more cost/coordination)
               </h2>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -106,7 +106,7 @@ export default function PleasantActivitiesPage() {
             </div>
 
             <div className="p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-800">
+              <h3 className="text-xl font-semibold mb-3 text-purple-800">
                 Make it neurodivergent-friendly (optional tweaks)
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">

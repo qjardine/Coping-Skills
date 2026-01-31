@@ -45,7 +45,7 @@ export default function CheckFactsPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link> (DBT Emotion Regulation)
+            Check the Facts (DBT Emotion Regulation)
           </h1>
 
           <div className="bg-white backdrop-blur-sm rounded-lg border border-gray-200 p-8 shadow-lg space-y-6">
@@ -54,7 +54,7 @@ export default function CheckFactsPage() {
                 You can have a real emotion and still be reacting to a story your mind filled in.
               </p>
               <p className="text-gray-700 mb-4">
-                DBT "<Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link>" helps you separate:
+                DBT "Check the Facts" helps you separate:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
                 <li>what you observed (facts),</li>
@@ -82,7 +82,7 @@ export default function CheckFactsPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step-by-step: <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link> (6 questions)
+                Step-by-step: Check the Facts (6 questions)
               </h2>
 
               <div className="mb-6">

@@ -20,7 +20,7 @@ export default function InterpersonalIntensityPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/interpersonal-skills/interpersonal-intensity" className="text-blue-600 hover:text-blue-800 underline">Interpersonal Intensity</Link>
+            Interpersonal Intensity
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">

@@ -21,7 +21,7 @@ export default function SelfCarePage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/self-care" className="text-blue-600 hover:text-blue-800 underline">Self-Care</Link> Check-In
+            Self-Care Check-In
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -202,7 +202,7 @@ export default function SelfCarePage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step 4 — CBT reframe (when you resist <Link href="/pages/self-care" className="text-blue-600 hover:text-blue-800 underline">self-care</Link>)
+                Step 4 — CBT reframe (when you resist self-care)
               </h2>
               <p className="mb-3 text-gray-700">
                 If your brain says "I don't deserve this" or "this won't help," try:

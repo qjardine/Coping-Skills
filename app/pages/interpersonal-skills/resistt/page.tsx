@@ -20,7 +20,7 @@ export default function ResisttPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> (Urge-Surfing Without Acting on the Urge)
+            RESISTT (Urge-Surfing Without Acting on the Urge)
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -39,7 +39,7 @@ export default function ResisttPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                When to use <Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link>
+                When to use RESISTT
               </h2>
               <p className="text-gray-700 mb-3">Use it when you notice:</p>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
@@ -54,7 +54,7 @@ export default function ResisttPage() {
                 <li>or ongoing problem-solving for chronic situations.</li>
               </ul>
               <p className="text-gray-700 mt-3 text-sm italic">
-                (<Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> is for the moment the urge is hot.)
+                (RESISTT is for the moment the urge is hot.)
               </p>
             </div>
 
@@ -64,7 +64,7 @@ export default function ResisttPage() {
               </h3>
               <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
                 <li>Name the urge: "I'm having the urge to ___."</li>
-                <li>Pick one <Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> letter and do it for 2–5 minutes.</li>
+                <li>Pick one RESISTT letter and do it for 2–5 minutes.</li>
                 <li>Re-rate intensity 0–10.</li>
                 <li>If still high, pick a different letter and repeat.</li>
               </ol>
@@ -72,7 +72,7 @@ export default function ResisttPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                The 7 <Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> skills (step-by-step)
+                The 7 RESISTT skills (step-by-step)
               </h2>
 
               <div className="mb-6">
@@ -166,7 +166,7 @@ export default function ResisttPage() {
                   <li>Tell yourself: "Not now. I'll come back to this at ___ (specific time)."</li>
                 </ul>
                 <p className="text-gray-700 mt-3">
-                  Pair it with: a timer + one other <Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> step so "shut it out" doesn't become rumination in a new location.
+                  Pair it with: a timer + one other RESISTT step so "shut it out" doesn't become rumination in a new location.
                 </p>
               </div>
 
@@ -233,7 +233,7 @@ export default function ResisttPage() {
                   Practice plan (so it works when you actually need it)
                 </h3>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                  <li>Build a "<Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> menu" now (3 options per letter).</li>
+                  <li>Build a "RESISTT menu" now (3 options per letter).</li>
                   <li>Practice once when you're only mildly stressed (intensity 3–5).</li>
                   <li>When you're flooded: start with I (Intense) or E (Engage) first (<Link href="/pages/interpersonal-skills/fast" className="text-blue-600 hover:text-blue-800 underline">fast</Link> body/attention wins), then do R once you're below ~6/10.</li>
                 </ul>
@@ -247,7 +247,7 @@ export default function ResisttPage() {
                   <p className="text-gray-700"><strong>"Reframing feels fake."</strong> → Reframe to neutral, not positive: "This is painful and temporary."</p>
                   <p className="text-gray-700"><strong>Distraction becomes avoidance.</strong> → Schedule a later "solve it" block when calm.</p>
                   <p className="text-gray-700"><strong>"Someone else isn't available."</strong> → Use "neutral thoughts" + write a 5-line message you would send.</p>
-                  <p className="text-gray-700"><strong>"You keep cycling <Link href="/pages/interpersonal-skills/resistt" className="text-blue-600 hover:text-blue-800 underline">RESISTT</Link> and staying at 8–10."</strong> → Switch to your Crisis Skills page (STOP/TIPP/<Link href="/pages/distress-tolerance/accepts" className="text-blue-600 hover:text-blue-800 underline">ACCEPTS</Link>) and/or your Overwhelmed? decision page.</p>
+                  <p className="text-gray-700"><strong>"You keep cycling RESISTT and staying at 8–10."</strong> → Switch to your Crisis Skills page (STOP/TIPP/<Link href="/pages/distress-tolerance/accepts" className="text-blue-600 hover:text-blue-800 underline">ACCEPTS</Link>) and/or your Overwhelmed? decision page.</p>
                 </div>
               </div>
             </div>

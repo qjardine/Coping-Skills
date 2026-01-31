@@ -1,13 +1,8 @@
 name = "coping-skills"
 compatibility_date = "2024-01-30"
-compatibility_flags = ["nodejs_compat"]
 
-# Enable Node.js built-in modules like buffer, async_hooks, etc.
-# This is required for Next.js to run on Cloudflare Workers
-node_compat = true
+# For Cloudflare Pages with Next.js
+pages_build_output_dir = ".next"
 
 [build]
 command = "npm run build"
-
-[site]
-bucket = ".vercel/output/static"

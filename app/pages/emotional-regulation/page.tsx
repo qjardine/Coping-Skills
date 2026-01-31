@@ -19,13 +19,13 @@ export default function EmotionalRegulationPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
             Emotional Regulation (DBT)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What is Emotional Regulation?
               </h2>
               <p className="text-gray-700 mb-4">
@@ -57,7 +57,7 @@ export default function EmotionalRegulationPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">
                     Changing Emotions
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -68,7 +68,7 @@ export default function EmotionalRegulationPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">
                     Reducing Vulnerability
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -80,7 +80,7 @@ export default function EmotionalRegulationPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">
                     <Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">Being Effective</Link>
                   </h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -92,7 +92,7 @@ export default function EmotionalRegulationPage() {
             </div>
 
             <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-800">
+              <h3 className="text-xl font-semibold mb-3 text-purple-800">
                 <Link href="/pages/emotional-regulation/abc-please" className="text-blue-600 hover:text-blue-800 underline">ABC <Link href="/pages/emotional-regulation/abc-please" className="text-blue-600 hover:text-blue-800 underline">PLEASE</Link></Link>
               </h3>
               <p className="text-gray-700 mb-2">

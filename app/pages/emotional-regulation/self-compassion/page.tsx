@@ -14,13 +14,13 @@ export default function SelfCompassionPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
             Self-Compassion
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What this is
               </h2>
               <p className="text-gray-700">
@@ -29,7 +29,7 @@ export default function SelfCompassionPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 1 — Name the pain (20 seconds)
               </h2>
               <p className="mb-3 text-gray-700">
@@ -55,7 +55,7 @@ export default function SelfCompassionPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 3 — Offer kindness (30–60 seconds)
               </h2>
               <p className="mb-3 text-gray-700">
@@ -77,7 +77,7 @@ export default function SelfCompassionPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 4 — One compassionate action (30 seconds)
               </h2>
               <p className="mb-3 text-gray-700">

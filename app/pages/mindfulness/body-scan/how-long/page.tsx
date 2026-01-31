@@ -16,7 +16,7 @@ export default function BodyScanPage() {
         <div className="w-full max-w-2xl">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold mb-8 text-gray-800">
-              How long would you like to spend on your <Link href="/pages/mindfulness/body-scan/how-long" className="text-blue-600 hover:text-blue-800 underline">body scan</Link>?
+              How long would you like to spend on your body scan?
             </h1>
           </div>
 

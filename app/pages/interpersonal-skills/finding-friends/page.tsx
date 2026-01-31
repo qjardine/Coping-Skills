@@ -48,7 +48,7 @@ export default function FindingFriendsPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-green-800">
-            <Link href="/pages/interpersonal-skills/finding-friends" className="text-blue-600 hover:text-blue-800 underline">Finding Friends</Link> (DBT Interpersonal Effectiveness)
+            Finding Friends (DBT Interpersonal Effectiveness)
           </h1>
 
           <div className="bg-green-50 backdrop-blur-sm rounded-lg border border-green-200 p-8 shadow-lg space-y-6">

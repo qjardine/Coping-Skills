@@ -19,13 +19,13 @@ export default function BuildMasteryPage() {
     <div className="container mx-auto px-4 py-8 pb-32 md:pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/emotional-regulation/build-mastery" className="text-blue-600 hover:text-blue-800 underline">Build Mastery</Link> (feel more capable, one small win at a time)
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
+            Build Mastery (feel more capable, one small win at a time)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What is this for?
               </h2>
               <p className="text-gray-700 mb-4">
@@ -37,12 +37,12 @@ export default function BuildMasteryPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step-by-step: <Link href="/pages/emotional-regulation/build-mastery" className="text-blue-600 hover:text-blue-800 underline">Build mastery</Link> today
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
+                Step-by-step: Build mastery today
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1: Pick ONE "mastery moment"
                 </h3>
                 <p className="text-gray-700 mb-3">Choose one thing that is:</p>
@@ -64,7 +64,7 @@ export default function BuildMasteryPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 2: "Plan for success, not failure"
                 </h3>
                 <p className="text-gray-700 mb-2">Make it easier to complete:</p>
@@ -79,7 +79,7 @@ export default function BuildMasteryPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3: Do it on purpose (and expect mistakes)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -97,7 +97,7 @@ export default function BuildMasteryPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4: <Link href="/pages/interpersonal-skills/give" className="text-blue-600 hover:text-blue-800 underline">Give</Link> yourself credit (this is part of the skill)
                 </h3>
                 <p className="text-gray-700 mb-2">At the end, say (out loud if you can):</p>
@@ -117,7 +117,7 @@ export default function BuildMasteryPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Starting a "Mastery Project" (optional, powerful)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -137,7 +137,7 @@ export default function BuildMasteryPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   If you want an easy daily template
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">Pick one:</p>
@@ -149,8 +149,8 @@ export default function BuildMasteryPage() {
               </div>
 
               <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  When to use <Link href="/pages/emotional-regulation/build-mastery" className="text-blue-600 hover:text-blue-800 underline">Build Mastery</Link>
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
+                  When to use Build Mastery
                 </h3>
                 <p className="text-gray-700 mb-2">Use it when you feel:</p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">

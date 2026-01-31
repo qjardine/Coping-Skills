@@ -119,7 +119,7 @@ export default function CrisisPage() {
                   onClick={() => router.push('/pages/self-harm/urge-now')}
                   className="w-full px-6 py-3 bg-red-700 hover:bg-red-800 text-white font-semibold rounded-lg transition-colors duration-200 shadow-md mb-2"
                 >
-                  Go to Self-Harm Urges Right Now
+                  Go to Regulating Self-Harm Urges
                 </button>
               </div>
 
@@ -155,14 +155,14 @@ export default function CrisisPage() {
               </div>
 
               <div className="mb-4">
-                <p className="text-gray-700 font-semibold mb-2">D) If you need comfort (not distraction) → Self-Soothe</p>
+                <p className="text-gray-700 font-semibold mb-2">D) If you need comfort (not distraction) → <Link href="/pages/distress-tolerance/soothe" className="text-blue-600 hover:text-blue-800 underline">Self-Soothe</Link></p>
                 <p className="text-gray-700 ml-4">
                   Use your senses (vision, hearing, smell, taste, touch) to settle.
                 </p>
               </div>
 
               <div className="mb-4">
-                <p className="text-gray-700 font-semibold mb-2">E) If you need hope + relief inside the moment → IMPROVE</p>
+                <p className="text-gray-700 font-semibold mb-2">E) If you need hope + relief inside the moment → <Link href="/pages/distress-tolerance/improve" className="text-blue-600 hover:text-blue-800 underline">IMPROVE</Link>the Moment</p>
                 <p className="text-gray-700 ml-4">
                   Imagery, meaning, prayer/asking for help, relaxation, one thing, brief vacation, encouragement.
                 </p>
@@ -182,7 +182,7 @@ export default function CrisisPage() {
               </h2>
               <p className="text-gray-700 mb-2 font-medium">Ask: "Did the intensity drop at least 10%?"</p>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                <li>Yes: You're moving out of overwhelm. Go to Wise Mind, <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link>, or <Link href="/pages/flowchart/problem-solve" className="text-blue-600 hover:text-blue-800 underline">Problem Solving</Link> next.</li>
+                <li>Yes: You're moving out of overwhelm. Go to <Link href='/pages/mindfulness/wise-mind' className="text-blue-600 hover:text-blue-800 underline">Wise Mind</Link>, <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link>, or <Link href="/pages/flowchart/problem-solve" className="text-blue-600 hover:text-blue-800 underline">Problem Solving</Link> next.</li>
                 <li>No: Stay in crisis skills. Try one different option (TIPP → ACCEPTS, or ACCEPTS → <Link href="/pages/distress-tolerance/soothe" className="text-blue-600 hover:text-blue-800 underline">Self-Soothe</Link>).</li>
               </ul>
             </div>

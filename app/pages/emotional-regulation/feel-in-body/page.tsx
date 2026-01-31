@@ -20,11 +20,11 @@ export default function FeelInBodyPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
             Feeling Emotions in Your Body (with the Emotion–Sensation Wheel)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div className="mb-6">
               <Image
                 src="/assets/emotionsensation.jpeg"
@@ -45,7 +45,7 @@ export default function FeelInBodyPage() {
             </div>
 
             <div className="p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-              <h2 className="text-xl font-semibold mb-3 text-gray-800">
+              <h2 className="text-xl font-semibold mb-3 text-purple-800">
                 Neurodivergent note (important)
               </h2>
               <p className="text-gray-700 mb-3">
@@ -60,12 +60,12 @@ export default function FeelInBodyPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step-by-step: Find the emotion through your body (using the wheel)
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 0 — Safety + choice (10 seconds)
                 </h3>
                 <p className="text-gray-700 mb-2">Ask yourself: "Does checking inside feel safe enough right now?"</p>
@@ -76,7 +76,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1 — Start with a baseline body question (20 seconds)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -100,7 +100,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 2 — Use supports if interoception is fuzzy (optional, ND-friendly)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -119,7 +119,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3 — Do a micro-scan (30–60 seconds, not a full <Link href="/pages/mindfulness/body-scan/how-long" className="text-blue-600 hover:text-blue-800 underline">body scan</Link>)
                 </h3>
                 <p className="text-gray-700 mb-3 text-sm italic">
@@ -137,7 +137,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4 — Face-first check (often easiest to notice)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -157,7 +157,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 5 — Use the Emotion–Sensation Wheel (the image on your screen)
                 </h3>
                 <p className="text-gray-700 mb-3">You'll move outside → in.</p>
@@ -197,7 +197,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 6 — "Name + locate" (the DBT move)
                 </h3>
                 <p className="text-gray-700 mb-3">Write one simple sentence:</p>
@@ -214,7 +214,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 7 — If you feel stuck, use the "urge + posture" shortcut
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -234,7 +234,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 8 — Tiny regulation option: <Link href="/pages/distress-tolerance/willingness-half-smile" className="text-blue-600 hover:text-blue-800 underline">Half-Smile</Link> (only if it feels okay)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -253,7 +253,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 9 — Close the loop (pick one "next right step")
                 </h3>
                 <p className="text-gray-700 mb-3">Now that you have a label, choose one:</p>
@@ -266,7 +266,7 @@ export default function FeelInBodyPage() {
               </div>
 
               <div className="p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   If your body feels "blank" or "numb"
                 </h3>
                 <p className="text-gray-700 mb-3">

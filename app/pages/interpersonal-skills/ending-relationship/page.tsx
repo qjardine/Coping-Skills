@@ -38,7 +38,7 @@ export default function EndingRelationshipsPage() {
                 Step 0 — Safety first (read this before anything else)
               </h2>
               <p className="text-gray-700 mb-4">
-                If there is abuse, stalking, threats, coercion, or you fear escalation, prioritize safety planning over a breakup conversation. DBT pages that teach "<Link href="/pages/interpersonal-skills/ending-relationship" className="text-blue-600 hover:text-blue-800 underline">ending relationships</Link>" explicitly say safety first and recommend contacting domestic violence resources for planning.
+                If there is abuse, stalking, threats, coercion, or you fear escalation, prioritize safety planning over a breakup conversation. DBT pages that teach "ending relationships" explicitly say safety first and recommend contacting domestic violence resources for planning.
               </p>
               <p className="text-gray-700 mb-2 font-medium">U.S. National Domestic Violence Hotline:</p>
               <p className="text-gray-700 mb-4">
@@ -146,7 +146,7 @@ export default function EndingRelationshipsPage() {
                 Step 6 — Have the conversation using DBT scripts
               </h2>
               <p className="text-gray-700 mb-4">
-                DBT pages about <Link href="/pages/interpersonal-skills/ending-relationship" className="text-blue-600 hover:text-blue-800 underline">ending relationships</Link> recommend being direct and using <Link href="/pages/interpersonal-skills/dear-man" className="text-blue-600 hover:text-blue-800 underline">DEAR MAN</Link> + <Link href="/pages/interpersonal-skills/give" className="text-blue-600 hover:text-blue-800 underline">GIVE</Link> + <Link href="/pages/interpersonal-skills/fast" className="text-blue-600 hover:text-blue-800 underline">FAST</Link>.
+                DBT pages about ending relationships recommend being direct and using <Link href="/pages/interpersonal-skills/dear-man" className="text-blue-600 hover:text-blue-800 underline">DEAR MAN</Link> + <Link href="/pages/interpersonal-skills/give" className="text-blue-600 hover:text-blue-800 underline">GIVE</Link> + <Link href="/pages/interpersonal-skills/fast" className="text-blue-600 hover:text-blue-800 underline">FAST</Link>.
               </p>
 
               <div className="mb-6">

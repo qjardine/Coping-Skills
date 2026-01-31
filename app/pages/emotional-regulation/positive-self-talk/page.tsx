@@ -19,11 +19,11 @@ export default function PositiveSelfTalkPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
             Positive Self-Talk
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
                 A step-by-step skill for when your brain is being mean to you.
@@ -38,7 +38,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What this is for
               </h2>
               <p className="text-gray-700 mb-3">Use this page when you notice:</p>
@@ -50,7 +50,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Before you start (10 seconds)
               </h2>
               <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
@@ -60,7 +60,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 1: Catch the ANT (Automatic Negative Thought)
               </h2>
               <p className="text-gray-700 mb-3">
@@ -77,7 +77,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 2: Name the thinking trap (1 label is enough)
               </h2>
               <p className="text-gray-700 mb-3">
@@ -96,7 +96,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 3: Check the evidence (CBT "reality check")
               </h2>
               <p className="text-gray-700 mb-3">
@@ -113,7 +113,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 4: Write a "true enough" replacement thought
               </h2>
               <p className="text-gray-700 mb-3">A good replacement thought is:</p>
@@ -150,7 +150,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 5: Say it like practice (not like magic)
               </h2>
               <p className="text-gray-700 mb-3">
@@ -169,7 +169,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 6: Make a tiny "rehearsal plan" for next time
               </h2>
               <p className="text-gray-700 mb-2 font-medium">Write one sentence:</p>
@@ -184,7 +184,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step 7: Remember the Backwards Brain Bicycle
               </h2>
               <p className="text-gray-700 mb-3">
@@ -213,7 +213,7 @@ export default function PositiveSelfTalkPage() {
             </div>
 
             <div className="p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-800">
+              <h3 className="text-xl font-semibold mb-3 text-purple-800">
                 If your self-talk gets unsafe
               </h3>
               <p className="text-gray-700">

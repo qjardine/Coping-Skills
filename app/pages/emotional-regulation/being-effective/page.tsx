@@ -19,17 +19,17 @@ export default function BeingEffectivePage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">Being Effective</Link> (Emotion Regulation)
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
+            Being Effective (Emotion Regulation)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What it is
               </h2>
               <p className="text-gray-700 mb-4">
-                In DBT, <Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">being effective</Link> means focusing on what works to meet your needs and move toward your goals—rather than what's "fair," what you wish were true, or what would feel satisfying in the moment. It's choosing actions that actually <Link href="/pages/distress-tolerance/improve" className="text-blue-600 hover:text-blue-800 underline">improve</Link> outcomes.
+                In DBT, being effective means focusing on what works to meet your needs and move toward your goals—rather than what's "fair," what you wish were true, or what would feel satisfying in the moment. It's choosing actions that actually <Link href="/pages/distress-tolerance/improve" className="text-blue-600 hover:text-blue-800 underline">improve</Link> outcomes.
               </p>
               <p className="text-gray-700">
                 When you do what works (even in tiny steps), you're more likely to get results—and results create relief, confidence, and positive emotion over time. Emotion Regulation skills also target learning emotions, changing unwanted emotions, increasing pleasant emotions, and reducing vulnerability to "emotion mind."
@@ -37,7 +37,7 @@ export default function BeingEffectivePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 When to use "Be Effective"
               </h2>
               <p className="text-gray-700 mb-3">Use it when you notice:</p>
@@ -48,7 +48,7 @@ export default function BeingEffectivePage() {
                 <li>You're tempted to avoid basics (food, shower, email, meds, sleep) because it "doesn't matter"</li>
               </ul>
               <p className="text-gray-700 text-sm italic">
-                Not the vibe: <Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">Being effective</Link> is not "being nice," "being perfect," or "doing everything." It's strategic and values-aligned.
+                Not the vibe: Being effective is not "being nice," "being perfect," or "doing everything." It's strategic and values-aligned.
               </p>
             </div>
 
@@ -60,17 +60,17 @@ export default function BeingEffectivePage() {
               <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
                 <li>What's my goal in this situation? (today / this hour)</li>
                 <li>What action moves me 1 step closer?</li>
-                <li>What would I do if I were <Link href="/pages/emotional-regulation/being-effective" className="text-blue-600 hover:text-blue-800 underline">being effective</Link>, not right?</li>
+                <li>What would I do if I were being effective, not right?</li>
               </ol>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step-by-step: The "Effective" Micro-Plan (5–10 minutes)
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1) Name the situation (1 sentence)
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">"Right now I'm ___ and the problem is ___."</p>
@@ -82,7 +82,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 2) Pick ONE goal (make it tiny)
                 </h3>
                 <p className="text-gray-700 mb-2">Choose the smallest real outcome you want:</p>
@@ -95,7 +95,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3) Choose the smallest next action
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">Pick one:</p>
@@ -114,7 +114,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4) Remove friction (ND-friendly)
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">Choose one support:</p>
@@ -128,7 +128,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 5) Do the action + <Link href="/pages/distress-tolerance/stop" className="text-blue-600 hover:text-blue-800 underline">stop</Link>
                 </h3>
                 <p className="text-gray-700">
@@ -137,7 +137,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 6) <Link href="/pages/interpersonal-skills/give" className="text-blue-600 hover:text-blue-800 underline">Give</Link> credit (out loud)
                 </h3>
                 <p className="text-gray-700 font-semibold">
@@ -149,7 +149,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Daily Worksheet: Short-Term Goals (Today)
                 </h3>
                 <p className="text-gray-700 mb-2">Write 3–6 items max.</p>
@@ -170,7 +170,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Long-Term Goals: Build a "Life Worth Living" Thread
                 </h3>
                 <div className="space-y-3">
@@ -200,7 +200,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Common "Not Effective" Traps (and quick re-frames)
                 </h3>
                 <div className="space-y-2">
@@ -216,7 +216,7 @@ export default function BeingEffectivePage() {
               </div>
 
               <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Tiny scripts you can reuse
                 </h3>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">

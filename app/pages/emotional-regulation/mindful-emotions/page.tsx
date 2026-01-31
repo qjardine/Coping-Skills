@@ -19,11 +19,11 @@ export default function MindfulEmotionsPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/emotional-regulation/mindful-emotions" className="text-blue-600 hover:text-blue-800 underline">Mindful Emotions</Link>
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
+            Mindful Emotions
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
                 <strong>DBT Skill:</strong> Mindfulness of Current Emotion (Ride the Wave)
@@ -31,7 +31,7 @@ export default function MindfulEmotionsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Introduction
               </h2>
               <p className="text-gray-700 mb-4">
@@ -46,7 +46,7 @@ export default function MindfulEmotionsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 When to Use This Skill
               </h2>
               <p className="text-gray-700 mb-3">Use Mindful Emotions when:</p>
@@ -63,19 +63,19 @@ export default function MindfulEmotionsPage() {
                 <li>You can't stay present without being overwhelmed.</li>
               </ul>
               <p className="text-gray-700 p-4 bg-yellow-50 rounded-lg border border-yellow-200">
-                A simple rule: If you can't stay with the feeling without increasing risk, do crisis skills first—then come back to <Link href="/pages/emotional-regulation/mindful-emotions" className="text-blue-600 hover:text-blue-800 underline">mindful emotions</Link>.
+                A simple rule: If you can't stay with the feeling without increasing risk, do crisis skills first—then come back to mindful emotions.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                How to Practice <Link href="/pages/emotional-regulation/mindful-emotions" className="text-blue-600 hover:text-blue-800 underline">Mindful Emotions</Link> (Ride the Wave)
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
+                How to Practice Mindful Emotions (Ride the Wave)
               </h2>
               <p className="text-gray-700 mb-4 font-semibold">Set a timer for 2–10 minutes.</p>
 
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Step 1: Name it (out loud or in your head)</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">Step 1: Name it (out loud or in your head)</h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>"This is anger."</li>
                     <li>"This is fear."</li>
@@ -85,7 +85,7 @@ export default function MindfulEmotionsPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Step 2: Locate it in your body</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">Step 2: Locate it in your body</h3>
                   <p className="text-gray-700 mb-2 font-medium">Ask:</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>Where do I feel this most? (chest, throat, stomach, face, hands)</li>
@@ -94,7 +94,7 @@ export default function MindfulEmotionsPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Step 3: Allow it to be here (no fixing, no feeding)</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">Step 3: Allow it to be here (no fixing, no feeding)</h3>
                   <p className="text-gray-700 mb-2 font-medium">Try:</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>"I don't like this, and I can allow it to be here."</li>
@@ -104,7 +104,7 @@ export default function MindfulEmotionsPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Step 4: Watch the wave move</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">Step 4: Watch the wave move</h3>
                   <p className="text-gray-700 mb-2">Imagine the emotion as a wave:</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>It rises</li>
@@ -116,7 +116,7 @@ export default function MindfulEmotionsPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Step 5: Don't become the emotion</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">Step 5: Don't become the emotion</h3>
                   <p className="text-gray-700 mb-2 font-medium">Say:</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>"I am noticing anger."</li>
@@ -126,7 +126,7 @@ export default function MindfulEmotionsPage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-2 text-gray-800">Step 6: Add gentle kindness (if you can)</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-purple-800">Step 6: Add gentle kindness (if you can)</h3>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>"Of course this hurts."</li>
                     <li>"Anyone in my situation might feel this."</li>
@@ -146,7 +146,7 @@ export default function MindfulEmotionsPage() {
             </div>
 
             <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-              <h3 className="text-xl font-semibold mb-3 text-gray-800">
+              <h3 className="text-xl font-semibold mb-3 text-purple-800">
                 Quick Option: 90-Second Ride (Micro-Practice)
               </h3>
               <p className="text-gray-700 mb-2">If you're short on time, do this for 90 seconds:</p>
@@ -176,7 +176,7 @@ export default function MindfulEmotionsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 FAQs
               </h2>
               <div className="space-y-4">
@@ -209,7 +209,7 @@ export default function MindfulEmotionsPage() {
                 </div>
                 <div>
                   <p className="text-gray-700 font-semibold mb-1">What if I'm not sure what I'm feeling?</p>
-                  <p className="text-gray-700 ml-4">Use the "Check Into Your Body" flow first (body scan or feelings wheel). <Link href="/pages/emotional-regulation/mindful-emotions" className="text-blue-600 hover:text-blue-800 underline">Mindful emotions</Link> works best when you can name at least one feeling.</p>
+                  <p className="text-gray-700 ml-4">Use the "Check Into Your Body" flow first (body scan or feelings wheel). Mindful emotions works best when you can name at least one feeling.</p>
                 </div>
               </div>
             </div>

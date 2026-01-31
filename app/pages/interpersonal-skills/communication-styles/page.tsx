@@ -20,7 +20,7 @@ export default function CommunicationStylesPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/interpersonal-skills/communication-styles" className="text-blue-600 hover:text-blue-800 underline">Communication Styles</Link>
+            Communication Styles
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -51,7 +51,7 @@ export default function CommunicationStylesPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step 1: Take the <Link href="/pages/interpersonal-skills/communication-styles" className="text-blue-600 hover:text-blue-800 underline">communication styles</Link> quiz
+                Step 1: Take the communication styles quiz
               </h2>
               <p className="text-gray-700 mb-3">
                 Read each statement and check the ones that feel most characteristic of you.

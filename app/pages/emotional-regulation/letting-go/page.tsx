@@ -19,17 +19,17 @@ export default function LettingGoPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/emotional-regulation/letting-go" className="text-blue-600 hover:text-blue-800 underline">Letting Go</Link> of Painful Emotions
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
+            Letting Go of Painful Emotions
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
                 DBT Emotion Regulation — also called Mindfulness of Current Emotions / Ride the Wave
               </p>
               <p className="text-gray-700 mb-4">
-                Painful emotions are real and valid. "<Link href="/pages/emotional-regulation/letting-go" className="text-blue-600 hover:text-blue-800 underline">Letting go</Link>" in DBT does not mean pushing them away or pretending they're fine. It means <Link href="/pages/emotional-regulation/letting-go" className="text-blue-600 hover:text-blue-800 underline">letting go</Link> of the extra suffering that comes from fighting reality, replaying the story, or trying to force the feeling to disappear.
+                Painful emotions are real and valid. "Letting go" in DBT does not mean pushing them away or pretending they're fine. It means letting go of the extra suffering that comes from fighting reality, replaying the story, or trying to force the feeling to disappear.
               </p>
               <p className="text-gray-700">
                 DBT frames this as a path to "emotional freedom," because suppressing emotions tends to increase suffering over time.
@@ -37,7 +37,7 @@ export default function LettingGoPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 When to use this skill
               </h2>
               <p className="text-gray-700 mb-3">Use it when you notice:</p>
@@ -52,12 +52,12 @@ export default function LettingGoPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step-by-step: Ride the Wave (the core practice)
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 0: Set yourself up (10 seconds)
                 </h3>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
@@ -68,7 +68,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1: Observe the emotion (name it)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -92,7 +92,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 2: Wave metaphor (<Link href="/pages/distress-tolerance/stop" className="text-blue-600 hover:text-blue-800 underline">stop</Link> arguing with the water)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -111,11 +111,11 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3: Drop the 5 common "hooks"
                 </h3>
                 <p className="text-gray-700 mb-3">
-                  This is the heart of "<Link href="/pages/emotional-regulation/letting-go" className="text-blue-600 hover:text-blue-800 underline">letting go</Link> of suffering." While you surf:
+                  This is the heart of "letting go of suffering." While you surf:
                 </p>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-3">
                   <li>Don't block or suppress it.</li>
@@ -133,7 +133,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4: Mindfulness of body sensations (optional, and adjustable)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -152,7 +152,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 5: Remember: you are not your emotion
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -167,7 +167,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 6: Practice "loving" the emotion (meaning: respect + no judgment)
                 </h3>
                 <p className="text-gray-700 mb-3">
@@ -182,7 +182,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   A super-short version (30 seconds)
                 </h3>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
@@ -194,7 +194,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Troubleshooting (common blocks)
                 </h3>
                 <div className="space-y-3">
@@ -227,7 +227,7 @@ export default function LettingGoPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Practice ideas (start small)
                 </h3>
                 <p className="text-gray-700 mb-2">

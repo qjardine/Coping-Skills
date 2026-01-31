@@ -15,11 +15,11 @@ export default function CheckFactsPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
             Check the Facts (DBT Emotion Regulation)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
                 You can have a real emotion and still be reacting to a story your mind filled in.
@@ -52,12 +52,12 @@ export default function CheckFactsPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step-by-step: <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the Facts</Link> (6 questions)
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1: What emotion do you want to change?
                 </h3>
                 <p className="text-gray-700 mb-3 font-medium">Fill in:</p>
@@ -90,7 +90,7 @@ export default function CheckFactsPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3: Describe what you observed with your senses
                 </h3>
                 <p className="text-gray-700 mb-3">List only what your senses could capture:</p>
@@ -106,7 +106,7 @@ export default function CheckFactsPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4: What are my interpretations, thoughts, and assumptions?
                 </h3>
                 <p className="text-gray-700 mb-3">Now write the story your brain added:</p>
@@ -147,7 +147,7 @@ export default function CheckFactsPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 6: Am I assuming a threat? What's the catastrophe?
                 </h3>
                 <p className="text-gray-700 mb-4">This is the "fear math" step.</p>
@@ -177,7 +177,7 @@ export default function CheckFactsPage() {
               </div>
 
               <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Now ask the main question
                 </h3>
                 <p className="text-gray-700 mb-4 font-semibold">
@@ -198,7 +198,7 @@ export default function CheckFactsPage() {
               </div>
 
               <div className="mt-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Helpful reference: When emotions fit the facts
                 </h3>
                 <p className="text-gray-700 mb-3">

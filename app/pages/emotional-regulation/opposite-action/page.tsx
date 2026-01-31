@@ -19,13 +19,13 @@ export default function OppositeActionPage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
             Opposite Action (DBT Emotion Regulation)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What is this for?
               </h2>
               <p className="text-gray-700 mb-4">
@@ -37,7 +37,7 @@ export default function OppositeActionPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 When to use Opposite Action
               </h2>
               <p className="text-gray-700 mb-3">Use Opposite Action when:</p>
@@ -50,12 +50,12 @@ export default function OppositeActionPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Step-by-step: Opposite Action
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1: Identify the emotion and its action urge
                 </h3>
                 <p className="text-gray-700 mb-2">What emotion are you feeling?</p>
@@ -71,7 +71,7 @@ export default function OppositeActionPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 2: <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the facts</Link>
                 </h3>
                 <p className="text-gray-700 mb-2">
@@ -89,7 +89,7 @@ export default function OppositeActionPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3: Identify the <Link href="/pages/emotional-regulation/opposite-action" className="text-blue-600 hover:text-blue-800 underline">opposite action</Link>
                 </h3>
                 <p className="text-gray-700 mb-2">What is the opposite of what the emotion wants you to do?</p>
@@ -118,7 +118,7 @@ export default function OppositeActionPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4: Do the <Link href="/pages/emotional-regulation/opposite-action" className="text-blue-600 hover:text-blue-800 underline">opposite action</Link> all the way
                 </h3>
                 <p className="text-gray-700 mb-2">Opposite Action works best when you do it:</p>
@@ -131,7 +131,7 @@ export default function OppositeActionPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 5: Repeat until the emotion changes
                 </h3>
                 <p className="text-gray-700">
@@ -140,7 +140,7 @@ export default function OppositeActionPage() {
               </div>
 
               <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Important Notes
                 </h3>
                 <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">

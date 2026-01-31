@@ -47,7 +47,7 @@ export default function SleepHygienePage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep Hygiene</Link>
+            Sleep Hygiene
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -56,10 +56,10 @@ export default function SleepHygienePage() {
                 Introduction
               </h2>
               <p className="text-gray-700 mb-4">
-                Sleep is one of the biggest "vulnerability factors" in DBT: when you're under-slept, your nervous system is easier to overwhelm, urges hit harder, and emotion regulation gets way more expensive. <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep hygiene</Link> is how you set your body up to sleep by building strong external cues (routine + environment) so you don't have to rely on willpower at 1:47am.
+                Sleep is one of the biggest "vulnerability factors" in DBT: when you're under-slept, your nervous system is easier to overwhelm, urges hit harder, and emotion regulation gets way more expensive. Sleep hygiene is how you set your body up to sleep by building strong external cues (routine + environment) so you don't have to rely on willpower at 1:47am.
               </p>
               <p className="text-gray-700">
-                For neurodivergent brains (ADHD/autistic), sleep can be extra tricky because internal "sleep signals" may be less reliable (interoception), sensory needs may be higher, and circadian rhythm can drift. <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep hygiene</Link> helps by externalizing rhythm: consistent cues, consistent timing, consistent "bed = sleep" association.
+                For neurodivergent brains (ADHD/autistic), sleep can be extra tricky because internal "sleep signals" may be less reliable (interoception), sensory needs may be higher, and circadian rhythm can drift. Sleep hygiene helps by externalizing rhythm: consistent cues, consistent timing, consistent "bed = sleep" association.
               </p>
             </div>
 
@@ -83,10 +83,10 @@ export default function SleepHygienePage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                DBT <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep Hygiene</Link> Protocol (Core Steps)
+                DBT Sleep Hygiene Protocol (Core Steps)
               </h2>
               <p className="text-gray-700 mb-4 text-sm italic">
-                This is adapted from DBT's <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep Hygiene</Link> Protocol.
+                This is adapted from DBT's Sleep Hygiene Protocol.
               </p>
 
               <div className="space-y-4">
@@ -155,7 +155,7 @@ export default function SleepHygienePage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Neurodivergent-Friendly <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep Hygiene</Link> Add-Ons
+                Neurodivergent-Friendly Sleep Hygiene Add-Ons
               </h2>
               <p className="text-gray-700 mb-3">Use these as accommodations, not "fixes."</p>
 
@@ -186,7 +186,7 @@ export default function SleepHygienePage() {
                 Practice Sheet (Track What Works)
               </h3>
               <p className="text-gray-700 mb-3">
-                Use DBT's <Link href="/pages/sleep-hygiene" className="text-blue-600 hover:text-blue-800 underline">Sleep Hygiene</Link> Practice Sheet to track: bedtime/wake time, what you did before bed, rumination level before/after, and usefulness.
+                Use DBT's Sleep Hygiene Practice Sheet to track: bedtime/wake time, what you did before bed, rumination level before/after, and usefulness.
               </p>
               <p className="text-gray-700">
                 Mini-experiment idea: Pick one variable for 7 days (bedtime consistency, caffeine cutoff, fan noise, leaving bed after 60 min) and track the change.

@@ -20,7 +20,7 @@ export default function ConflictPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            Interpersonal Effectiveness: Resistance and <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">Conflict</Link>
+            Interpersonal Effectiveness: Resistance and Conflict
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
@@ -29,10 +29,10 @@ export default function ConflictPage() {
                 Introduction
               </h2>
               <p className="text-gray-700 mb-4">
-                Sometimes you meet resistance even when you're using DBT skills correctly. The other person may feel threatened, misunderstood, overwhelmed, or simply unwilling. <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">Conflict</Link> can also spike your own emotion mind—making it harder to stay effective.
+                Sometimes you meet resistance even when you're using DBT skills correctly. The other person may feel threatened, misunderstood, overwhelmed, or simply unwilling. Conflict can also spike your own emotion mind—making it harder to stay effective.
               </p>
               <p className="text-gray-700">
-                This page adds more DBT tools for resistance/<Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link> (beyond "just explain better"), and includes neurodivergence-aware options (processing time, sensory overload, literal communication, shutdown/meltdown risk, rejection sensitivity, etc.). When you plan for resistance, you're less likely to escalate, over-explain, or collapse.
+                This page adds more DBT tools for resistance/conflict (beyond "just explain better"), and includes neurodivergence-aware options (processing time, sensory overload, literal communication, shutdown/meltdown risk, rejection sensitivity, etc.). When you plan for resistance, you're less likely to escalate, over-explain, or collapse.
               </p>
             </div>
 
@@ -41,7 +41,7 @@ export default function ConflictPage() {
                 2. Core Principle: Two Goals at Once (Dialectical Thinking)
               </h2>
               <p className="text-gray-700 mb-3">
-                In <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link>, DBT asks you to hold two truths:
+                In conflict, DBT asks you to hold two truths:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
                 <li>My needs matter.</li>
@@ -88,7 +88,7 @@ export default function ConflictPage() {
                 <p className="text-gray-700">Then:</p>
                 <p className="text-gray-700 ml-4">"And my need is ___."</p>
                 <p className="text-gray-700 mt-3 text-sm italic">
-                  This aligns with DBT's emphasis on validation as a relationship-stabilizer in <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link>.
+                  This aligns with DBT's emphasis on validation as a relationship-stabilizer in conflict.
                 </p>
               </div>
 
@@ -180,13 +180,13 @@ export default function ConflictPage() {
                   <li>Truthful (no exaggeration, no martyrdom)</li>
                 </ul>
                 <p className="text-gray-700 mt-3">
-                  FAST protects you from "agreeing to stop the <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link>" and then resenting it later.
+                  FAST protects you from "agreeing to stop the conflict" and then resenting it later.
                 </p>
               </div>
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Skill 7: Time-Outs and Repair (<Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">Conflict</Link> Hygiene)
+                  Skill 7: Time-Outs and Repair (Conflict Hygiene)
                 </h3>
                 <p className="text-gray-700 mb-3">
                   When arousal is too high, the skill is pause, not "win."
@@ -203,10 +203,10 @@ export default function ConflictPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                4. Neurodivergence Notes: Make <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">Conflict</Link> More Accessible
+                4. Neurodivergence Notes: Make Conflict More Accessible
               </h2>
               <p className="text-gray-700 mb-4">
-                Neurodivergent <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link> often fails because of mismatched processing, not bad intent. Research supports that misunderstandings can be mutual between neurotypes ("double empathy"), meaning both sides may need to adapt—not just one person.
+                Neurodivergent conflict often fails because of mismatched processing, not bad intent. Research supports that misunderstandings can be mutual between neurotypes ("double empathy"), meaning both sides may need to adapt—not just one person.
               </p>
 
               <div className="mb-6">
@@ -253,7 +253,7 @@ export default function ConflictPage() {
                 <div>
                   <p className="text-gray-700 font-semibold mb-2">5) Masking & fatigue</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
-                    <li>Schedule <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link> talks earlier in the day if possible</li>
+                    <li>Schedule conflict talks earlier in the day if possible</li>
                     <li>Agree on a "minimum effective conversation" (what must be decided today vs later)</li>
                   </ul>
                 </div>
@@ -273,7 +273,7 @@ export default function ConflictPage() {
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
                 5. Practice Worksheet
               </h2>
-              <p className="text-gray-700 mb-2">Use this after a real <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link> (or to rehearse one):</p>
+              <p className="text-gray-700 mb-2">Use this after a real conflict (or to rehearse one):</p>
               <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
                 <li>Situation (facts):</li>
                 <li>My goal: (objective / relationship / self-respect)</li>
@@ -290,7 +290,7 @@ export default function ConflictPage() {
                 6. Real-Life Example Script (Putting It Together)
               </h2>
               <p className="text-gray-700 mb-3">
-                Scenario: You ask a housemate to stop bringing up a <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link> at midnight. They resist: "You're so controlling. I can't talk to you at all."
+                Scenario: You ask a housemate to stop bringing up a conflict at midnight. They resist: "You're so controlling. I can't talk to you at all."
               </p>
 
               <div className="space-y-3">
@@ -298,7 +298,7 @@ export default function ConflictPage() {
                   <p className="text-gray-700 font-semibold mb-1">You (Validate + Boundary):</p>
                   <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                     <li>"I get that it feels controlling to be told when to talk."</li>
-                    <li>"And I'm not available for <Link href="/pages/interpersonal-skills/conflict" className="text-blue-600 hover:text-blue-800 underline">conflict</Link> conversations after 10pm."</li>
+                    <li>"And I'm not available for conflict conversations after 10pm."</li>
                   </ul>
                 </div>
                 <div>

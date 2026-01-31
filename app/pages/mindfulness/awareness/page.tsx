@@ -26,7 +26,7 @@ export default function AwarenessPage() {
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
-                These <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> exercises help you practice accepting reality as it is. In DBT, <Link href="/pages/interpersonal-skills/radical-acceptance" className="text-blue-600 hover:text-blue-800 underline">Radical Acceptance</Link> is supported by:
+                These awareness exercises help you practice accepting reality as it is. In DBT, <Link href="/pages/interpersonal-skills/radical-acceptance" className="text-blue-600 hover:text-blue-800 underline">Radical Acceptance</Link> is supported by:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4 mb-4">
                 <li>mindfulness of your breath,</li>
@@ -34,7 +34,7 @@ export default function AwarenessPage() {
                 <li>and the repeated choice called <Link href="/pages/distress-tolerance/turning-mind" className="text-blue-600 hover:text-blue-800 underline">Turning the Mind</Link> (choosing acceptance again and again).</li>
               </ul>
               <p className="text-gray-700">
-                This page gives you simple, step-by-step "<Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> practices" you can do in daily life.
+                This page gives you simple, step-by-step "awareness practices" you can do in daily life.
               </p>
             </div>
 
@@ -61,7 +61,7 @@ export default function AwarenessPage() {
               <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
                 <li>Check safety. If you feel unsafe doing internal body focus, keep eyes open and use external anchors (sounds, objects, room details).</li>
                 <li>Choose a time: 1 minute, 3 minutes, or 10 minutes.</li>
-                <li>Set your intention: "I'm practicing <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> to help acceptance."</li>
+                <li>Set your intention: "I'm practicing awareness to help acceptance."</li>
               </ol>
             </div>
 
@@ -84,12 +84,12 @@ export default function AwarenessPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Choose one <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> practice
+                Choose one awareness practice
               </h2>
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option 1: Body Positions <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">Awareness</Link> (anytime, anywhere)
+                  Option 1: Body Positions Awareness (anytime, anywhere)
                 </h3>
                 <p className="text-gray-700 mb-3">
                   This practice builds acceptance by noticing: "This is the position I'm in right now."
@@ -115,7 +115,7 @@ export default function AwarenessPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option 2: Connection to the Universe <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">Awareness</Link> (grounded, supportive)
+                  Option 2: Connection to the Universe Awareness (grounded, supportive)
                 </h3>
                 <p className="text-gray-700 mb-3">
                   This practice uses contact points (feet on floor, body on chair) to feel supported.
@@ -174,7 +174,7 @@ export default function AwarenessPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option 4: Washing the Dishes <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">Awareness</Link> (daily-life mindfulness)
+                  Option 4: Washing the Dishes Awareness (daily-life mindfulness)
                 </h3>
                 <p className="text-gray-700 mb-3 text-sm italic">
                   This is adapted from Thich Nhat Hanh's mindfulness practice: dishes as an object of contemplation.
@@ -192,7 +192,7 @@ export default function AwarenessPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option 5: Cleaning the House <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">Awareness</Link> (stage-by-stage)
+                  Option 5: Cleaning the House Awareness (stage-by-stage)
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">Steps</p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
@@ -221,7 +221,7 @@ export default function AwarenessPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option 6: Slow-Motion Bath or Shower <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">Awareness</Link> (sensory + calming)
+                  Option 6: Slow-Motion Bath or Shower Awareness (sensory + calming)
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">Steps</p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
@@ -238,7 +238,7 @@ export default function AwarenessPage() {
 
               <div className="mb-6">
                 <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                  Option 7: <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link> <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">Awareness</Link> — "ONE"
+                  Option 7: <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link> Awareness — "ONE"
                 </h3>
                 <p className="text-gray-700 mb-2 font-medium">Steps</p>
                 <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">

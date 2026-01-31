@@ -20,28 +20,28 @@ export default function MeditationPage() {
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link>
+            Meditation
           </h1>
 
           <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                What is <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link>?
+                What is Meditation?
               </h2>
               <p className="text-gray-700 mb-4">
-                Meditation is a practice of training attention and <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> to achieve mental clarity, emotional calm, and a sense of presence. Research shows <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link> can reduce stress, <Link href="/pages/distress-tolerance/improve" className="text-blue-600 hover:text-blue-800 underline">improve</Link> emotional regulation, enhance focus, and support overall well-being.
+                Meditation is a practice of training attention and <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> to achieve mental clarity, emotional calm, and a sense of presence. Research shows meditation can reduce stress, <Link href="/pages/distress-tolerance/improve" className="text-blue-600 hover:text-blue-800 underline">improve</Link> emotional regulation, enhance focus, and support overall well-being.
               </p>
               <p className="text-gray-700 mb-4">
                 There's no "one right way" to meditate. Different techniques work for different people, and what helps you may change over time. The key is finding practices that feel accessible and sustainable for your unique brain and body.
               </p>
               <p className="text-gray-700">
-                For neurodivergent individuals (ADHD, autism, etc.), traditional seated <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link> can feel challenging. This page offers various approaches, including movement-based, sensory-focused, and shorter-duration options that may work better for atypical brains.
+                For neurodivergent individuals (ADHD, autism, etc.), traditional seated meditation can feel challenging. This page offers various approaches, including movement-based, sensory-focused, and shorter-duration options that may work better for atypical brains.
               </p>
             </div>
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Traditional <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link> Techniques
+                Traditional Meditation Techniques
               </h2>
 
               <div className="space-y-6">
@@ -67,7 +67,7 @@ export default function MeditationPage() {
 
                 <div>
                   <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                    Loving Kindness <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link> (Metta)
+                    Loving Kindness Meditation (Metta)
                   </h3>
                   <p className="text-gray-700 mb-3">
                     This practice cultivates compassion and warmth toward yourself and others through intentional phrases.
@@ -81,16 +81,16 @@ export default function MeditationPage() {
                     <li>Finally, extend to all beings</li>
                   </ol>
                   <p className="text-gray-700 mt-3 text-sm italic">
-                    Research suggests loving-kindness <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link> can increase positive emotions and reduce self-criticism.
+                    Research suggests loving-kindness meditation can increase positive emotions and reduce self-criticism.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                    Walking <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link>
+                    Walking Meditation
                   </h3>
                   <p className="text-gray-700 mb-3">
-                    Movement-based <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link> can be easier for people who find sitting still challenging. You bring mindful <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> to the act of walking.
+                    Movement-based meditation can be easier for people who find sitting still challenging. You bring mindful <Link href="/pages/mindfulness/awareness" className="text-blue-600 hover:text-blue-800 underline">awareness</Link> to the act of walking.
                   </p>
                   <p className="text-gray-700 mb-2 font-medium">How to practice:</p>
                   <ol className="list-decimal list-inside space-y-1 text-gray-700 ml-4">
@@ -101,7 +101,7 @@ export default function MeditationPage() {
                     <li>You can walk in a circle, back and forth, or on a path</li>
                   </ol>
                   <p className="text-gray-700 mt-3">
-                    This is especially helpful for ADHD brains that need movement to focus, or for anyone who finds seated <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link> uncomfortable.
+                    This is especially helpful for ADHD brains that need movement to focus, or for anyone who finds seated meditation uncomfortable.
                   </p>
                 </div>
 
@@ -233,7 +233,7 @@ export default function MeditationPage() {
                     <li>Practice in short bursts (30 seconds to 2 minutes)</li>
                     <li>Have an exit plan and <Link href="/pages/distress-tolerance/stop" className="text-blue-600 hover:text-blue-800 underline">stop</Link> if you feel activated</li>
                     <li>Use "Find Your Home Base" or "Listen to Your Inner Empath" practices</li>
-                    <li>Consider working with a trauma-informed <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link> teacher</li>
+                    <li>Consider working with a trauma-informed meditation teacher</li>
                   </ul>
                 </div>
               </div>
@@ -241,7 +241,7 @@ export default function MeditationPage() {
 
             <div className="p-4 bg-blue-50 rounded-lg border border-blue-200">
               <h3 className="text-xl font-semibold mb-3 text-gray-800">
-                Tips for Starting a <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link> Practice
+                Tips for Starting a Meditation Practice
               </h3>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                 <li>Start small: Even 1-2 minutes counts</li>
@@ -256,10 +256,10 @@ export default function MeditationPage() {
 
             <div>
               <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Research on <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link>
+                Research on Meditation
               </h2>
               <p className="text-gray-700 mb-3">
-                Scientific research supports <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">meditation</Link>'s benefits:
+                Scientific research supports meditation's benefits:
               </p>
               <ul className="list-disc list-inside space-y-1 text-gray-700 ml-4">
                 <li>Reduces stress and anxiety (studies show decreased cortisol and improved stress response)</li>
@@ -270,7 +270,7 @@ export default function MeditationPage() {
                 <li>Can reduce symptoms of depression and <Link href="/pages/distress-tolerance/improve" className="text-blue-600 hover:text-blue-800 underline">improve</Link> overall well-being</li>
               </ul>
               <p className="text-gray-700 mt-3 text-sm italic">
-                Note: <Link href="/pages/mindfulness/meditation" className="text-blue-600 hover:text-blue-800 underline">Meditation</Link> is a complementary practice, not a replacement for professional mental health care when needed.
+                Note: Meditation is a complementary practice, not a replacement for professional mental health care when needed.
               </p>
             </div>
           </div>

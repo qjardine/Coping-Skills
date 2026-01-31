@@ -14,11 +14,11 @@ export default function ProblemSolvePage() {
     <div className="container mx-auto px-4 py-8 pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
              Problem Solving
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
               <p className="text-gray-700 mb-4">
                 You've named the emotion. You've checked the facts. You know your feeling makes sense—and honestly, anyone in your shoes might feel the same way.
@@ -38,7 +38,7 @@ export default function ProblemSolvePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What is DBT Problem Solving?
               </h2>
               <p className="text-gray-700 mb-4">
@@ -50,7 +50,7 @@ export default function ProblemSolvePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Why Problem Solving matters
               </h2>
               <p className="text-gray-700 mb-4">
@@ -62,13 +62,13 @@ export default function ProblemSolvePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 The DBT <Link href="/pages/flowchart/problem-solve" className="text-blue-600 hover:text-blue-800 underline">Problem Solving</Link> Steps (one step at a time)
               </h2>
 
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-3 text-purple-800">
                     Step 1: Figure out and describe the problem (facts only)
                   </h3>
                   <p className="text-gray-700 mb-3">
@@ -85,7 +85,7 @@ export default function ProblemSolvePage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-3 text-purple-800">
                     Step 2: <Link href="/pages/flowchart/check-facts" className="text-blue-600 hover:text-blue-800 underline">Check the facts</Link> (quick reality check)
                   </h3>
                   <p className="text-gray-700 mb-3">
@@ -102,7 +102,7 @@ export default function ProblemSolvePage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-3 text-purple-800">
                     Step 3: Identify your goal (keep it small + realistic)
                   </h3>
                   <p className="text-gray-700 mb-3">
@@ -119,7 +119,7 @@ export default function ProblemSolvePage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-3 text-purple-800">
                     Step 4: Brainstorm solutions (quantity over quality)
                   </h3>
                   <p className="text-gray-700 mb-3">
@@ -133,7 +133,7 @@ export default function ProblemSolvePage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-3 text-purple-800">
                     Step 5: Choose a solution to try first
                   </h3>
                   <p className="text-gray-700 mb-3">
@@ -159,7 +159,7 @@ export default function ProblemSolvePage() {
                 </div>
 
                 <div>
-                  <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                  <h3 className="text-xl font-semibold mb-3 text-purple-800">
                     Step 7: Evaluate what happened (and adjust)
                   </h3>
                   <p className="text-gray-700 mb-3">
@@ -200,7 +200,7 @@ export default function ProblemSolvePage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 Problem Solving is progress, not perfection
               </h2>
               <p className="text-gray-700 mb-4">
@@ -212,7 +212,7 @@ export default function ProblemSolvePage() {
             </div>
 
             <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-              <h2 className="text-xl font-semibold mb-2 text-gray-800">
+              <h2 className="text-xl font-semibold mb-2 text-purple-800">
                 Your challenge this week
               </h2>
               <p className="text-gray-700 mb-3">

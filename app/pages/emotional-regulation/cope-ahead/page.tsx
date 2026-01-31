@@ -19,13 +19,13 @@ export default function CopeAheadPage() {
     <div className="container mx-auto px-4 py-8 pb-32 md:pb-24">
       <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)]">
         <div className="w-full max-w-3xl">
-          <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-            <Link href="/pages/emotional-regulation/cope-ahead" className="text-blue-600 hover:text-blue-800 underline">Cope Ahead</Link> (practice the hard moment before it happens)
+          <h1 className="text-4xl font-bold mb-8 text-center text-purple-800">
+            Cope Ahead (practice the hard moment before it happens)
           </h1>
 
-          <div className="bg-white/80 backdrop-blur-sm rounded-lg p-8 shadow-lg space-y-6">
+          <div className="bg-purple-50 backdrop-blur-sm rounded-lg border border-purple-200 p-8 shadow-lg space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
                 What is this for?
               </h2>
               <p className="text-gray-700 mb-4">
@@ -40,12 +40,12 @@ export default function CopeAheadPage() {
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">
-                Step-by-step: <Link href="/pages/emotional-regulation/cope-ahead" className="text-blue-600 hover:text-blue-800 underline">Cope Ahead</Link>
+              <h2 className="text-2xl font-semibold mb-4 text-purple-800">
+                Step-by-step: Cope Ahead
               </h2>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 1 — Describe the situation (be specific)
                 </h3>
                 <p className="text-gray-700 mb-2">Write 2–3 sentences:</p>
@@ -66,7 +66,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 2 — Choose the skills you will use
                 </h3>
                 <p className="text-gray-700 mb-3">Pick 1–3 skills you'll actually do in the moment.</p>
@@ -91,7 +91,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 3 — Imagine the situation like you're in it
                 </h3>
                 <p className="text-gray-700 mb-2">
@@ -108,7 +108,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 4 — Rehearse coping effectively (all the way through)
                 </h3>
                 <p className="text-gray-700 mb-2">Now mentally practice the skill plan:</p>
@@ -132,7 +132,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Step 5 — End with relaxation
                 </h3>
                 <p className="text-gray-700 mb-2">After rehearsing, do 1–2 minutes of:</p>
@@ -148,7 +148,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="mb-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   A simple template you can copy/paste
                 </h3>
                 <div className="space-y-2 text-gray-700">
@@ -163,7 +163,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Example (interview / appointment)
                 </h3>
                 <div className="space-y-2 text-gray-700 ml-4">
@@ -177,7 +177,7 @@ export default function CopeAheadPage() {
               </div>
 
               <div className="p-4 bg-green-50 rounded-lg border border-green-200">
-                <h3 className="text-xl font-semibold mb-3 text-gray-800">
+                <h3 className="text-xl font-semibold mb-3 text-purple-800">
                   Tiny reminder
                 </h3>
                 <p className="text-gray-700">
