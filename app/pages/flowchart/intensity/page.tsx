@@ -22,7 +22,7 @@ function IntensityContent() {
     
     if (value >= 8) {
       // 8-10 → TIPP first (crisis/overwhelm)
-      router.push('/pages/distress-tolerance/tippp');
+      router.push('/pages/distress-tolerance/tipp');
     } else if (value >= 4) {
       // 4-7 → continue current flow
       const emotionsParam = searchParams?.get('emotions') || '';
