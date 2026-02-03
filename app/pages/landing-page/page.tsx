@@ -18,6 +18,7 @@ const categories: Record<string, Category> = {
       { label: 'Body Scan', path: '/pages/mindfulness/body-scan/how-long' },
       { label: 'Awareness', path: '/pages/mindfulness/awareness' },
       { label: 'Breathing', path: '/pages/mindfulness/breathing' },
+      { label: 'RAIN', path: '/pages/mindfulness/rain' },
       { label: 'Wise Mind', path: '/pages/mindfulness/wise-mind/wise-mind' },
       { label: 'Meditation', path: '/pages/mindfulness/meditation' },
       { label: 'What Skills', path: '/pages/mindfulness/what' },

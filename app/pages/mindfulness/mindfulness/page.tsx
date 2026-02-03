@@ -139,6 +139,12 @@ export default function MindfulnessPage() {
                   Breathing
                 </button>
                 <button
+                  onClick={() => router.push('/pages/mindfulness/rain')}
+                  className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-left"
+                >
+                  RAIN
+                </button>
+                <button
                   onClick={() => router.push('/pages/mindfulness/wise-mind/wise-mind')}
                   className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200 text-left"
                 >
