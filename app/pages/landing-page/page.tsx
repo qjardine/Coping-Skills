@@ -107,6 +107,7 @@ const categories: Record<string, Category> = {
     label: 'Neurodivergent Support',
     pages: [
       { label: 'Overload Skills Menu', path: '/pages/neurodivergent/overload' },
+      { label: 'Managing Meltdowns', path: '/pages/neurodivergent/meltdowns' },
       { label: 'Personal Care Plan', path: '/pages/neurodivergent/care-plan' },
       { label: 'Neurodivergent Affirmations', path: '/pages/neurodivergent/affirmations' },
       { label: 'Creating a Sensory Safe Space', path: '/pages/neurodivergent/safe-space' },
