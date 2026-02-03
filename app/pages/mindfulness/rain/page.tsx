@@ -231,7 +231,7 @@ export default function RainPage() {
                 <li>Open your eyes</li>
                 <li>Name 5 things you see</li>
                 <li>Feel your feet on the floor</li>
-                <li>Switch to a simpler skill (paced breathing, cold water, grounding)</li>
+                <li>Switch to a simpler skill (<Link href="/pages/mindfulness/breathing" className="text-blue-600 hover:text-blue-800 underline">paced breathing</Link>, <Link href="/pages/distress-tolerance/tipp" className="text-blue-600 hover:text-blue-800 underline">cold water</Link>, grounding)</li>
                 <li>Try RAIN later with a smaller, less intense target</li>
               </ul>
               <p className="text-gray-700 font-medium">
@@ -244,9 +244,9 @@ export default function RainPage() {
                 Pairing ideas (especially for addiction + anxiety)
               </h2>
               <ul className="list-disc list-inside space-y-2 text-gray-700 ml-4">
-                <li><strong>RAIN + Urge Surfing:</strong> Use RAIN during the peak of an urge, then surf the wave once you're more centered.</li>
-                <li><strong>RAIN + Chain Analysis:</strong> Use RAIN to settle your body first, then map the links with more clarity.</li>
-                <li><strong>RAIN + Self-Validation:</strong> Turn the "Nurture" step into a validation script: "Of course I feel this—given what happened."</li>
+                <li><strong>RAIN + <Link href="/pages/self-harm/urge-now" className="text-blue-600 hover:text-blue-800 underline">Urge Surfing</Link>:</strong> Use RAIN during the peak of an urge, then surf the wave once you're more centered.</li>
+                <li><strong>RAIN + <Link href="/pages/chain-analysis" className="text-blue-600 hover:text-blue-800 underline">Chain Analysis</Link>:</strong> Use RAIN to settle your body first, then map the links with more clarity.</li>
+                <li><strong>RAIN + <Link href="/pages/emotional-regulation/self-validation" className="text-blue-600 hover:text-blue-800 underline">Self-Validation</Link>:</strong> Turn the "Nurture" step into a validation script: "Of course I feel this—given what happened."</li>
               </ul>
             </div>
 
