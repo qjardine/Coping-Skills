@@ -104,6 +104,7 @@ const categories: Record<string, Category> = {
     label: 'Neurodivergent Support',
     pages: [
       { label: 'Overload Skills Menu', path: '/pages/neurodivergent/overload' },
+      { label: 'Personal Care Plan', path: '/pages/neurodivergent/care-plan' },
     ],
   },
   'flowchart': {
