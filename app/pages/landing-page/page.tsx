@@ -73,6 +73,7 @@ const categories: Record<string, Category> = {
     label: 'Interpersonal Skills',
     pages: [
       { label: 'Interpersonal Skills Overview', path: '/pages/interpersonal-skills/interpersonal-skills' },
+      { label: 'Find Your Values', path: '/pages/interpersonal-skills/values' },
       { label: 'DEAR MAN', path: '/pages/interpersonal-skills/dear-man' },
       { label: 'GIVE', path: '/pages/interpersonal-skills/give' },
       { label: 'FAST', path: '/pages/interpersonal-skills/fast' },
