@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { BackButton } from '@/components/shared/BackButton';
+import { SensoryWheel } from '@/components/SensoryWheel';
 
 export default function SensoryProfilesPage() {
   const router = useRouter();
@@ -125,6 +126,33 @@ export default function SensoryProfilesPage() {
               <div className="p-4 bg-purple-50 rounded border border-purple-200 mt-4">
                 <p className="text-gray-700 font-medium">
                   <strong>Tip:</strong> It's normal to be both hyper and hypo in the same sense depending on your stress level, environment, or burnout.
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
+                Interactive Sensory Profile Charts
+              </h2>
+              
+              <div className="p-4 bg-blue-50 rounded border border-blue-200 mb-6">
+                <p className="text-gray-700 text-sm">
+                  <strong>Try it now:</strong> Click on any ring segment to rate that sense from 1-5. Fill out both charts to visualize your sensory profile. Your ratings will help you identify which accommodations to prioritize.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <div className="flex justify-center">
+                  <SensoryWheel type="hyper" title="Hypersensitivity (Over-Responsive)" />
+                </div>
+                <div className="flex justify-center">
+                  <SensoryWheel type="hypo" title="Hyposensitivity (Under-Responsive)" />
+                </div>
+              </div>
+
+              <div className="p-4 bg-green-50 rounded border border-green-200 mb-6">
+                <p className="text-gray-700 text-sm">
+                  <strong>What the colors mean:</strong> Each of the 8 senses has its own color. The 5 rings represent intensity levels (1 = minimal impact to 5 = uses up all spoons). Click any ring to set your rating for that sense.
                 </p>
               </div>
             </div>
