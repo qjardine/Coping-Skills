@@ -115,7 +115,7 @@ export default function StimmingPage() {
               {[
                 { id: 11, text: "You try not to fidget in meetings or school, but it just builds up until you need to move more." },
                 { id: 12, text: "You feel physically restless or on edge when you can't move — like your skin's buzzing from the inside." },
-                { id: 13, text: "You've been told to "sit still" or "stop fidgeting" — but suppressing it makes everything harder, not easier." },
+                { id: 13, text: "You've been told to 'sit still' or 'stop fidgeting' — but suppressing it makes everything harder, not easier." },
                 { id: 14, text: "You struggle to think or listen without movement — your brain focuses better when your body's doing something small." },
                 { id: 15, text: "You stim subtly under the table, inside your sleeves, or by clenching muscles so others don't notice or comment." }
               ].map(({ id, text }) => (

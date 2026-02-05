@@ -50,7 +50,7 @@ export default function HyperfixationPage() {
             <div className="space-y-3">
               {[
                 { id: 1, text: "You lose hours in a task and completely forget to eat, pee, stretch, or respond to texts." },
-                { id: 2, text: "You start something "just for 10 minutes" and accidentally blow through an entire afternoon." },
+                { id: 2, text: "You start something 'just for 10 minutes' and accidentally blow through an entire afternoon." },
                 { id: 3, text: "You tell yourself you'll stop after one more round, episode, or paragraph… and then you don't." },
                 { id: 4, text: "You become so locked in, you physically can't switch tasks, even when you know you should." },
                 { id: 5, text: "You ignore everything around you — alarms, conversations, hunger — because your brain won't let go of the task." }
@@ -149,7 +149,7 @@ export default function HyperfixationPage() {
                 { id: 17, text: "You feel lost or ashamed when you can't get into hyperfocus — even when everything else depends on it." },
                 { id: 18, text: "You rely on hyperfocus to get things done because normal motivation or focus just isn't strong enough." },
                 { id: 19, text: "You don't notice hunger, pain, or overstimulation while in a flow state — until your body fully malfunctions." },
-                { id: 20, text: "You spend hours chasing that mental "lock in" feeling — reorganising, prepping, or reworking the conditions to make it happen." }
+                { id: 20, text: "You spend hours chasing that mental 'lock in' feeling — reorganising, prepping, or reworking the conditions to make it happen." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input

@@ -114,7 +114,7 @@ export default function MaskingPage() {
             <div className="space-y-3">
               {[
                 { id: 11, text: "You structure tasks the way others do, even if it's inefficient for your brain, just to seem competent." },
-                { id: 12, text: "You plan and rehearse responses before speaking to avoid sounding impulsive, rude, or \"off.\"" },
+                { id: 12, text: "You plan and rehearse responses before speaking to avoid sounding impulsive, rude, or 'off.'" },
                 { id: 13, text: "You take on roles that don't fit — like being the organiser or overachiever — because it's what's expected." },
                 { id: 14, text: "You pretend to understand things during meetings or conversations just to avoid embarrassment or looking stupid." },
                 { id: 15, text: "You've practised \"appropriate\" facial expressions in the mirror — even if they don't match how you actually feel." }

@@ -5,9 +5,9 @@ import Link from 'next/link';
 import { QuizNavButton } from '@/components/QuizNavButton';
 import { saveQuizScore } from '@/utils/quiz-storage';
 
-export default function SensorySensitivitiesPage() {
+export default function DifficultyProcessingPage() {
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
-  const currentSlug = 'sensory-sensitivities';
+  const currentSlug = 'difficulty-processing';
 
   const toggleCheck = ({ id }: { id: number }) => {
     setCheckedItems(prev => ({
@@ -29,7 +29,7 @@ export default function SensorySensitivitiesPage() {
           {/* Header */}
           <div className="text-center space-y-2">
             <h1 className="text-3xl font-bold text-gray-800">
-              Sensory Sensitivities (IRL)
+              Difficulty Processing (IRL)
             </h1>
             <p className="text-gray-600">
               Check the experiences that resonate with you
@@ -42,18 +42,18 @@ export default function SensorySensitivitiesPage() {
           {/* Section 1 */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800 border-b-2 border-purple-300 pb-2">
-              1. Your Environment Can Make or Break Your Day
+              1. Your Brain Buffers (Especially Under Load)
             </h2>
             <p className="text-gray-600 italic">
-              Your brain's not being dramatic — it's just trying to process everything all at once, and can't turn down the volume.
+              It's not that you're not smart — your brain is doing too much at once.
             </p>
             <div className="space-y-3">
               {[
-                { id: 1, text: "You avoid turning on the big overhead light — it's too harsh, makes your head pound, and feels instantly stressful." },
-                { id: 2, text: "Supermarkets feel like sensory chaos — flickering lights, beeping scanners, music, crowds, smells — too much data, not enough processing space." },
-                { id: 3, text: "You avoid perfume counters, movie theatres, food courts, loud hairdressers or big events because the mix of input is too intense." },
-                { id: 4, text: "You often plan your outings around how loud, bright, crowded, or smelly a place might be — without even realising it." },
-                { id: 5, text: "You have a love/hate relationship with the beach: windy, wet sticky sand, loud waves, sun is bright — it's all just a lot." }
+                { id: 1, text: "You need extra time to answer questions, even simple ones, because your brain is \"loading.\"" },
+                { id: 2, text: "You can't think when someone is watching you or waiting for an answer." },
+                { id: 3, text: "You lose your words mid-sentence and have to restart." },
+                { id: 4, text: "You can't process new info if you're already stressed, hungry, tired, or in pain." },
+                { id: 5, text: "You read the same sentence three times and still don't know what it said." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -74,18 +74,18 @@ export default function SensorySensitivitiesPage() {
           {/* Section 2 */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800 border-b-2 border-purple-300 pb-2">
-              2. It's Driving Me Mad
+              2. Too Many Inputs = Shutdown, Not "Drama"
             </h2>
             <p className="text-gray-600 italic">
-              It's not being "high maintenance" — it's sensory self-defence.
+              When sound/light/movement is high, processing goes offline.
             </p>
             <div className="space-y-3">
               {[
-                { id: 6, text: "You hate sock seams, tight waistbands, scratchy tags, or anything that clings or is tight." },
-                { id: 7, text: "You struggle with messy tasks like washing dishes, making food — anything where your hands get dirty." },
-                { id: 8, text: "You cut out every label and avoid fabrics like wool, lace, corduroy, denim, or anything that feels stiff or textured." },
-                { id: 9, text: "When something feels 'just right,' you immediately buy it in three colours and wear it on rotation for months and re-wear the same outfit over and over." },
-                { id: 10, text: "You are easily overwhelmed with layered sounds (TV's on, phone ringing, someone talking in the next room, cars driving past — oh and the big light is on)." }
+                { id: 6, text: "Background noise (TV, music, conversations) makes it hard to understand the person in front of you." },
+                { id: 7, text: "Bright lights, crowds, or visual clutter make your brain feel foggy or panicky." },
+                { id: 8, text: "You can't follow directions in busy places (stores, offices, events) because your brain is filtering too much." },
+                { id: 9, text: "You get \"snappy\" or \"blank\" when overstimulated — not because you don't care, but because you can't sort inputs." },
+                { id: 10, text: "You need quiet to think, but people treat quiet as optional." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -106,18 +106,18 @@ export default function SensorySensitivitiesPage() {
           {/* Section 3 */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800 border-b-2 border-purple-300 pb-2">
-              3. Crowds, Noise, and Movement Wipe You Out
+              3. Words Don't Match What's Happening Inside
             </h2>
             <p className="text-gray-600 italic">
-              Even when you want to be there, your nervous system might tap out before you do.
+              The feeling is real — the label doesn't show up.
             </p>
             <div className="space-y-3">
               {[
-                { id: 11, text: "You couldn't concentrate in school or work because fluorescent lights, chatter, and shuffling feet made it impossible to focus." },
-                { id: 12, text: "You find it exhausting to talk in loud spaces — your brain keeps scanning the room for sounds, smells, and movement." },
-                { id: 13, text: "Busy environments like parties, offices, or stations make you irritable or foggy — like you're dodging sensory punches nonstop." },
-                { id: 14, text: "You feel an immediate drop in tension the moment you step into a quiet room after being in a loud one." },
-                { id: 15, text: "You can pick up sounds others can't (like buzzing electricity or a ticking clock)." }
+                { id: 11, text: "Someone asks \"How do you feel?\" and your brain returns: error / unknown / nothing." },
+                { id: 12, text: "You only realise what you felt hours later (or the next day)." },
+                { id: 13, text: "You can describe facts (\"what happened\") but not the internal experience (\"how it felt\")." },
+                { id: 14, text: "You confuse emotions with body states (tired vs sad, anxious vs excited, hungry vs angry)." },
+                { id: 15, text: "You know you're \"off\" but can't explain why, which makes you feel stuck or misunderstood." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -138,18 +138,18 @@ export default function SensorySensitivitiesPage() {
           {/* Section 4 */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800 border-b-2 border-purple-300 pb-2">
-              4. Your Body Reacts Before You Can Name It
+              4. Conversations Move Too Fast
             </h2>
             <p className="text-gray-600 italic">
-              You don't always know why you feel awful — but your nervous system definitely does.
+              Processing delay can look like disinterest — but it's just timing.
             </p>
             <div className="space-y-3">
               {[
-                { id: 16, text: "Strong smells like perfume, bleach, or reheated food hit you like a truck — triggering nausea, dizziness, or even panic." },
-                { id: 17, text: "You feel 'off' in rooms with flickering lights, clutter, mirrored floors, or too many colours and patterns." },
-                { id: 18, text: "You feel uneasy when you have an injury — the feeling of being sore, a stinging cut etc is overwhelming." },
-                { id: 19, text: "You don't always love being touched, unexpected hugs, being touched lightly, strangers putting their hand on your shoulder to get your attention." },
-                { id: 20, text: "You are easily overwhelmed by visual clutter — messy space, messy mind, messy emotions." }
+                { id: 16, text: "You understand what someone meant after the conversation ends." },
+                { id: 17, text: "You go quiet in groups because by the time you're ready to speak, the topic has changed." },
+                { id: 18, text: "You miss jokes, sarcasm, or implied meanings until later (or not at all)." },
+                { id: 19, text: "You get overwhelmed by rapid-fire questions and can't answer any of them." },
+                { id: 20, text: "You need people to pause after asking something — but they keep adding more." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -170,18 +170,18 @@ export default function SensorySensitivitiesPage() {
           {/* Section 5 */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold text-gray-800 border-b-2 border-purple-300 pb-2">
-              5. Textures and Food Can Be War Zones
+              5. The Fallout Looks Like Avoidance (But It's Protection)
             </h2>
             <p className="text-gray-600 italic">
-              Picky eating isn't about preference — it's protection from overwhelm.
+              When processing is hard, your nervous system learns "don't engage."
             </p>
             <div className="space-y-3">
               {[
-                { id: 21, text: "You avoid textures like microfibre, raw wood, towels from the dryer, dry hands, or even the feeling of hair on your neck." },
-                { id: 22, text: "You hate weird food textures (mushy, oily, slimy or gritty foods bananas, mushrooms, lentils, etc)." },
-                { id: 23, text: "You eat familiar meals on repeat — often with ingredients that are consistent, like crisps, pre-made sauces, etc. Unlike fruit and veggies, which can have varying and inconsistent textures." },
-                { id: 24, text: "You struggle with brushing your teeth, foaming toothpaste and the feeling of the bristles. PASS." },
-                { id: 25, text: "Wearing headbands, clips, hair ties or your hair being in the same position too long hurts the skin on your scalp." }
+                { id: 21, text: "You procrastinate because starting means facing confusing steps and too many decisions." },
+                { id: 22, text: "You avoid calls, appointments, or paperwork because the info-load feels unmanageable." },
+                { id: 23, text: "You freeze when instructions aren't clear — then feel ashamed for \"not just doing it.\"" },
+                { id: 24, text: "You dissociate, go numb, or shut down when overwhelmed — like your brain pulls the plug to survive." },
+                { id: 25, text: "You feel guilty for needing help, repeats, or written instructions — even though they're legitimate accommodations." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -203,7 +203,7 @@ export default function SensorySensitivitiesPage() {
           <div className="bg-blue-50 rounded-lg p-6 border-l-4 border-blue-400">
             <h2 className="text-xl font-semibold text-gray-800 mb-3">What This Might Mean</h2>
             <p className="text-gray-700 leading-relaxed">
-              Sensory sensitivities are common with autism, ADHD, anxiety, PTSD, and SPD (Sensory Processing Disorder). Your nervous system processes sensory input differently — sometimes too loudly, sometimes not enough. Understanding your sensory profile helps you advocate for your needs and create environments where you can thrive.
+              Processing difficulties are common in autism, ADHD, sensory processing differences, and trauma. Your brain needs more time, fewer inputs, and clearer signals to understand and respond to information. This isn't about intelligence — it's about how your nervous system handles incoming data, especially under stress or sensory overload. Understanding this can help you create environments and communication styles that support your processing needs.
             </p>
           </div>
 
@@ -213,23 +213,23 @@ export default function SensorySensitivitiesPage() {
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-600 mr-2">✓</span>
-                <span>Complete your <Link href="/pages/neurodivergent/sensory-profiles" className="text-blue-600 hover:underline">sensory profile</Link> to identify your triggers</span>
+                <span><strong>Ask for Time:</strong> Say "Let me think about that" or "Can you give me a minute?"</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-2">✓</span>
-                <span>Build a <Link href="/pages/neurodivergent/sensory-kit" className="text-blue-600 hover:underline">sensory toolkit</Link> with items that help regulate</span>
+                <span><strong>Reduce Sensory Input:</strong> Turn off background noise, dim lights, minimize visual clutter</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-2">✓</span>
-                <span>Create a <Link href="/pages/neurodivergent/safe-space" className="text-blue-600 hover:underline">sensory safe space</Link> at home</span>
+                <span><strong>Request Written Info:</strong> Ask for instructions via text/email instead of verbal only</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-2">✓</span>
-                <span>Practice <Link href="/pages/neurodivergent/sensory-soothing" className="text-blue-600 hover:underline">sensory self-soothing</Link> techniques</span>
+                <span><strong>One Thing at a Time:</strong> Break conversations and tasks into single questions or steps</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-600 mr-2">✓</span>
-                <span>Use <Link href="/pages/neurodivergent/stims-special-interests" className="text-blue-600 hover:underline">stims</Link> to regulate when overwhelmed</span>
+                <span><strong>Body-First Language:</strong> Use physical sensations (tight chest, heavy, jittery) when emotions are unclear</span>
               </li>
             </ul>
           </div>
@@ -238,17 +238,17 @@ export default function SensorySensitivitiesPage() {
           <div className="bg-purple-50 rounded-lg p-6 border-l-4 border-purple-400">
             <h2 className="text-xl font-semibold text-gray-800 mb-3">Related Resources</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-              <Link href="/pages/neurodivergent/meltdowns" className="text-blue-600 hover:underline">
-                → Meltdown Prevention
+              <Link href="/pages/neurodivergent/symptom-quiz/sensory-sensitivities" className="text-blue-600 hover:underline">
+                → Sensory Sensitivities
               </Link>
-              <Link href="/pages/crisis/tolerance-window" className="text-blue-600 hover:underline">
-                → Window of Tolerance
+              <Link href="/pages/neurodivergent/symptom-quiz/sensory-overload" className="text-blue-600 hover:underline">
+                → Sensory Overload
               </Link>
-              <Link href="/pages/neurodivergent/care-plan" className="text-blue-600 hover:underline">
-                → Personal Care Plan
+              <Link href="/pages/neurodivergent/symptom-quiz/interoception" className="text-blue-600 hover:underline">
+                → Interoception
               </Link>
-              <Link href="/pages/distress-tolerance/soothe" className="text-blue-600 hover:underline">
-                → Self-Soothing with Senses
+              <Link href="/pages/neurodivergent/symptom-quiz/social-cues" className="text-blue-600 hover:underline">
+                → Social Communication
               </Link>
             </div>
           </div>

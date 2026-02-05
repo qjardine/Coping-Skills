@@ -49,11 +49,11 @@ export default function EmotionalDysregulationPage() {
             </p>
             <div className="space-y-3">
               {[
-                { id: 1, text: "You cry over something "minor" like a broken glass or burnt toast — and feel embarrassed about how intense it felt." },
+                { id: 1, text: "You cry over something 'minor' like a broken glass or burnt toast — and feel embarrassed about how intense it felt." },
                 { id: 2, text: "You get furious over being interrupted or ignored — even if the person didn't mean to be rude." },
                 { id: 3, text: "You panic, cry, or freeze up when you receive unexpected criticism — even when it's said kindly." },
                 { id: 4, text: "You feel a wave of anxiety or dread just from running late, even if it's just by 5 minutes, and the person doesn't care you're late." },
-                { id: 5, text: "You feel physical symptoms like heart racing, nausea, or shaking during stress — even if you're "keeping it together" externally." }
+                { id: 5, text: "You feel physical symptoms like heart racing, nausea, or shaking during stress — even if you're 'keeping it together' externally." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -84,7 +84,7 @@ export default function EmotionalDysregulationPage() {
                 { id: 6, text: "You avoid chores or emails because they trigger guilt, overwhelm, or fear — even if you know they're simple tasks." },
                 { id: 7, text: "You lash out in arguments, then later feel deep regret but struggle to know how to fix it." },
                 { id: 8, text: "You cancel plans or quit tasks because your emotions get so heavy, even if you were excited 10 minutes earlier." },
-                { id: 9, text: "You use food, alcohol, or other "numbing" tools to escape overwhelming feelings — even if you didn't intend to." },
+                { id: 9, text: "You use food, alcohol, or other 'numbing' tools to escape overwhelming feelings — even if you didn't intend to." },
                 { id: 10, text: "You fall apart after tiny failures (like breaking a mug) — crying, spiralling, and unable to focus for the rest of the day." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
@@ -115,7 +115,7 @@ export default function EmotionalDysregulationPage() {
               {[
                 { id: 11, text: "You hide big feelings in public, then cry, scream, or shut down when you're finally alone." },
                 { id: 12, text: "You seem calm in meetings but later explode over something unrelated — the bottled-up stress finally finding a release." },
-                { id: 13, text: "You get told you're "too sensitive" or "overreacting" — but your emotions are real and just come out hot." },
+                { id: 13, text: "You get told you're 'too sensitive' or 'overreacting' — but your emotions are real and just come out hot." },
                 { id: 14, text: "You act fine while dissociating or faking a smile — but your body feels tense, heavy, and sometimes like it might collapse." },
                 { id: 15, text: "You struggle to focus, listen, or work when your emotions are simmering just below the surface — no one else notices, but it's consuming you." }
               ].map(({ id, text }) => (
@@ -181,7 +181,7 @@ export default function EmotionalDysregulationPage() {
                 { id: 22, text: "You feel deeply sad for hours or days over something that others brushed off in minutes." },
                 { id: 23, text: "You get defensive or angry when criticised — even if it's valid — then beat yourself up for reacting that way." },
                 { id: 24, text: "You've self-harmed, engaged in disordered eating, or used substances to try and get control over emotions that felt too big to bear." },
-                { id: 25, text: "You feel constantly on edge — anxious, wired, or stuck in fight-or-flight — even when "nothing's wrong."" }
+                { id: 25, text: "You feel constantly on edge — anxious, wired, or stuck in fight-or-flight — even when 'nothing's wrong.'" }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
