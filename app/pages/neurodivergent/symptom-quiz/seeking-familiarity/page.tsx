@@ -53,7 +53,7 @@ export default function SeekingFamiliarityPage() {
                 { id: 2, text: "You eat the same meals or snacks for weeks — not out of habit, but because the comfort feels regulating." },
                 { id: 3, text: "You take the same route to work every day, even if it's slower, because changing paths feels mentally taxing." },
                 { id: 4, text: "You re-read favourite books or play the same games — the familiarity brings peace, not boredom." },
-                { id: 5, text: "You choose old, safe options over new ones — even when others say the new thing is "better" or "fun."" }
+                { id: 5, text: "You choose old, safe options over new ones — even when others say the new thing is 'better' or 'fun.'" }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -83,7 +83,7 @@ export default function SeekingFamiliarityPage() {
               {[
                 { id: 6, text: "You avoid joining a new class or club unless you know who's going, where it is, and what to expect." },
                 { id: 7, text: "You turn down invitations to new places — even fun ones — because the not-knowing causes full-body resistance." },
-                { id: 8, text: "You mentally "rehearse" things like ordering at a new café or calling someone for the first time." },
+                { id: 8, text: "You mentally 'rehearse' things like ordering at a new café or calling someone for the first time." },
                 { id: 9, text: "You feel panicky or irritable if you're expected to adapt to something new without time to prepare." },
                 { id: 10, text: "You've skipped opportunities — jobs, trips, hobbies — because the unknown felt more dangerous than missing out." }
               ].map(({ id, text }) => (
@@ -114,10 +114,10 @@ export default function SeekingFamiliarityPage() {
             <div className="space-y-3">
               {[
                 { id: 11, text: "You spend time with the same few people because new social energy feels unpredictable and exhausting." },
-                { id: 12, text: "You feel unsettled or even panicked if your "safe person," café, playlist, or object of comfort isn't available." },
+                { id: 12, text: "You feel unsettled or even panicked if your 'safe person,' café, playlist, or object of comfort isn't available." },
                 { id: 13, text: "You go back to the same hairdresser, doctor, holiday spot — changing feels like starting from scratch emotionally." },
                 { id: 14, text: "Wear the same outfits or brands on repeat — not for fashion, but because they don't require decision-making." },
-                { id: 15, text: "You feel thrown off if your "usual" seat in a room is taken — even if they're all the same." }
+                { id: 15, text: "You feel thrown off if your 'usual' seat in a room is taken — even if they're all the same." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -178,7 +178,7 @@ export default function SeekingFamiliarityPage() {
             <div className="space-y-3">
               {[
                 { id: 21, text: "You've been called boring or predictable just because you enjoy repetition and don't crave novelty." },
-                { id: 22, text: "You've been made to feel "less fun" for not liking spontaneous plans, group travel, or surprise outings." },
+                { id: 22, text: "You've been made to feel 'less fun' for not liking spontaneous plans, group travel, or surprise outings." },
                 { id: 23, text: "You've nodded and smiled through new experiences — secretly waiting to get home to your comfort playlist or favourite tea." },
                 { id: 24, text: "You outgrow things but still return to them — TV shows, hobbies, objects — because familiarity feels emotionally grounding." },
                 { id: 25, text: "You don't fear change in the way people assume — you just need it to come slowly, predictably, and with warning." }
