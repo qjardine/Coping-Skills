@@ -42,11 +42,11 @@ export default function RepetitiveBehaviorPage() {
             </p>
             <div className="space-y-3">
               {[
-                { id: 1, text: "You whisper "keys, keys, keys" on repeat while searching for them." },
+                { id: 1, text: "You whisper 'keys, keys, keys' on repeat while searching for them." },
                 { id: 2, text: "You ask the same question several times — not because you didn't hear, but because you need reassurance that you heard them correctly." },
-                { id: 3, text: "You recite "phone, wallet, keys" before leaving the house like a verbal checklist that calms your brain." },
+                { id: 3, text: "You recite 'phone, wallet, keys' before leaving the house like a verbal checklist that calms your brain." },
                 { id: 4, text: "You count steps, strokes, or items — in your head or aloud — just to feel some kind of order." },
-                { id: 5, text: "You repeat the same routine or steps (like brushing teeth then flossing) because it feels "wrong" to mix it up." }
+                { id: 5, text: "You repeat the same routine or steps (like brushing teeth then flossing) because it feels 'wrong' to mix it up." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -110,7 +110,7 @@ export default function RepetitiveBehaviorPage() {
                 { id: 12, text: "You reuse favourite phrases from movies or conversations (delayed echolalia) — sometimes it says what you can't." },
                 { id: 13, text: "You mentally rehearse full conversations before they happen, replaying them line-for-line just in case you need the script." },
                 { id: 14, text: "You mentally repeat the same idea, thought in your mind multiple times while you're trying to figure it out/work through it." },
-                { id: 15, text: "You revisit the same thought or word internally until your brain feels like it's "filed" it properly." }
+                { id: 15, text: "You revisit the same thought or word internally until your brain feels like it's 'filed' it properly." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
@@ -138,7 +138,7 @@ export default function RepetitiveBehaviorPage() {
             </p>
             <div className="space-y-3">
               {[
-                { id: 16, text: "You relive past conversations or embarrassing moments like a playlist your brain won't stop hitting "repeat" on." },
+                { id: 16, text: "You relive past conversations or embarrassing moments like a playlist your brain won't stop hitting 'repeat' on." },
                 { id: 17, text: "You rewatch, reread, or replay the same song over and over — it's comforting and doesn't require new effort." },
                 { id: 18, text: "You talk about the same topic a lot — even if the conversation's moved on — because it still feels unfinished." },
                 { id: 19, text: "You go down rabbit holes of information you already know, just to feel competent or comforted." },
@@ -170,10 +170,10 @@ export default function RepetitiveBehaviorPage() {
             </p>
             <div className="space-y-3">
               {[
-                { id: 21, text: "You've been told your routines, stims, or habits are "too much," "childish," or attention-seeking."" },
+                { id: 21, text: "You've been told your routines, stims, or habits are 'too much,' 'childish,' or attention-seeking." },
                 { id: 22, text: "You've masked your repetitive behaviours to avoid being teased — then burned out from the effort of hiding them." },
                 { id: 23, text: "You feel embarrassed after repeating something out loud — even though it helped you process or stay on track (like mimicking the beeping of the microwave)." },
-                { id: 24, text: "Experienced distress when you couldn't finish a repeated behaviour "properly" — like being interrupted when your brain is midway through mentally singing a lyric." },
+                { id: 24, text: "Experienced distress when you couldn't finish a repeated behaviour \"properly\" — like being interrupted when your brain is midway through mentally singing a lyric." },
                 { id: 25, text: "Now realise repetition wasn't a problem — it was your brain's way of coping, organising, and staying steady all along." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
@@ -257,6 +257,7 @@ export default function RepetitiveBehaviorPage() {
           </div>
         </div>
       </div>
+      <QuizNavButton currentSlug={currentSlug} />
     </div>
   );
 }

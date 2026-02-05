@@ -1,10 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { QuizNavButton } from '@/components/QuizNavButton';
+import { saveQuizScore } from '@/utils/quiz-storage';
 
 export default function SpecialInterestsPage() {
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+  const currentSlug = 'special-interests';
 
   const toggleCheck = ({ id }: { id: number }) => {
     setCheckedItems(prev => ({
@@ -14,6 +17,10 @@ export default function SpecialInterestsPage() {
   };
 
   const checkedCount = Object.values(checkedItems).filter(Boolean).length;
+
+  useEffect(() => {
+    saveQuizScore({ symptomSlug: currentSlug, score: checkedCount });
+  }, [checkedCount]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 py-8 px-4">
@@ -171,7 +178,7 @@ export default function SpecialInterestsPage() {
             <div className="space-y-3">
               {[
                 { id: 21, text: "You've been called obsessive, childish, or weird because of how much you care — even if it hurts no one." },
-                { id: 22, text: "You've hidden or toned down your interest in public, fearing judgment or being "too much" again." },
+                { id: 22, text: "You've hidden or toned down your interest in public, fearing judgment or being 'too much' again." },
                 { id: 23, text: "You've had people roll their eyes or change the subject when you share something you're deeply excited about." },
                 { id: 24, text: "You try to explain why it matters to you — but there aren't words for how deeply it fits your brain." },
                 { id: 25, text: "You now realise special interests were your lifeline through chaos — they've regulated your emotions, sparked your creativity, and brought real joy." }
@@ -257,6 +264,7 @@ export default function SpecialInterestsPage() {
           </div>
         </div>
       </div>
+      <QuizNavButton currentSlug={currentSlug} />
     </div>
   );
 }

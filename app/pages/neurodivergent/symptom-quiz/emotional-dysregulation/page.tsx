@@ -1,10 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { QuizNavButton } from '@/components/QuizNavButton';
+import { saveQuizScore } from '@/utils/quiz-storage';
 
 export default function EmotionalDysregulationPage() {
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+  const currentSlug = 'emotional-dysregulation';
 
   const toggleCheck = ({ id }: { id: number }) => {
     setCheckedItems(prev => ({
@@ -14,6 +17,10 @@ export default function EmotionalDysregulationPage() {
   };
 
   const checkedCount = Object.values(checkedItems).filter(Boolean).length;
+
+  useEffect(() => {
+    saveQuizScore({ symptomSlug: currentSlug, score: checkedCount });
+  }, [checkedCount]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 py-8 px-4">
@@ -141,7 +148,7 @@ export default function EmotionalDysregulationPage() {
                 { id: 16, text: "You replay emotional moments for days, obsessing over what you said, how you looked, or what they really meant." },
                 { id: 17, text: "You apologise over and over — even when the other person insists you're fine and they're not upset." },
                 { id: 18, text: "You spiral after showing emotion, wondering if you've ruined a relationship or embarrassed yourself." },
-                { id: 19, text: "You feel humiliated after every "too much" moment — even if no one else reacted." },
+                { id: 19, text: "You feel humiliated after every 'too much' moment — even if no one else reacted." },
                 { id: 20, text: "You can't let go of small disagreements — your brain won't stop spinning on them, no matter how hard you try." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
@@ -257,6 +264,7 @@ export default function EmotionalDysregulationPage() {
           </div>
         </div>
       </div>
+      <QuizNavButton currentSlug={currentSlug} />
     </div>
   );
 }

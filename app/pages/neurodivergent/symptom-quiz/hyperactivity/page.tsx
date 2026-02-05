@@ -1,13 +1,16 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { BackButton } from '@/components/shared/BackButton';
+import { QuizNavButton } from '@/components/QuizNavButton';
+import { saveQuizScore } from '@/utils/quiz-storage';
 
 export default function HyperactivityPage() {
   const router = useRouter();
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+  const currentSlug = 'hyperactivity';
 
   const handleBack = () => {
     router.back();
@@ -19,6 +22,11 @@ export default function HyperactivityPage() {
       [id]: !prev[id]
     }));
   };
+
+  useEffect(() => {
+    const checkedCount = Object.values(checkedItems).filter(Boolean).length;
+    saveQuizScore({ symptomSlug: currentSlug, score: checkedCount });
+  }, [checkedItems]);
 
   const symptoms = [
     {
@@ -215,6 +223,7 @@ export default function HyperactivityPage() {
         </div>
       </div>
 
+      <QuizNavButton currentSlug={currentSlug} />
       <BackButton onClick={handleBack} />
     </div>
   );

@@ -1,10 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { QuizNavButton } from '@/components/QuizNavButton';
+import { saveQuizScore } from '@/utils/quiz-storage';
 
 export default function RoutinePage() {
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+  const currentSlug = 'routine';
 
   const toggleCheck = ({ id }: { id: number }) => {
     setCheckedItems(prev => ({
@@ -14,6 +17,10 @@ export default function RoutinePage() {
   };
 
   const checkedCount = Object.values(checkedItems).filter(Boolean).length;
+
+  useEffect(() => {
+    saveQuizScore({ symptomSlug: currentSlug, score: checkedCount });
+  }, [checkedCount]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 py-8 px-4">
@@ -74,10 +81,10 @@ export default function RoutinePage() {
             </p>
             <div className="space-y-3">
               {[
-                { id: 6, text: "You feel thrown off or panicked when plans suddenly change — even if they're technically "better" plans." },
+                { id: 6, text: "You feel thrown off or panicked when plans suddenly change — even if they're technically 'better' plans." },
                 { id: 7, text: "You need time to mentally prepare for schedule changes, even small ones like someone picking you up earlier than expected." },
                 { id: 8, text: "If your routine is disrupted (wrong breakfast, someone moved your stuff), your whole day can feel off-kilter or harder to manage." },
-                { id: 9, text: ""Go with the flow" feels like you're being swept away with no anchor — not relaxing, just stressful." },
+                { id: 9, text: "'Go with the flow' feels like you're being swept away with no anchor — not relaxing, just stressful." },
                 { id: 10, text: "You've been labelled rigid or controlling, when really you're just trying to protect your peace from unpredictability." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
@@ -107,8 +114,8 @@ export default function RoutinePage() {
             <div className="space-y-3">
               {[
                 { id: 11, text: "You eat the same meals repeatedly because it saves you from having to make exhausting food choices every single day and you know they feel safe." },
-                { id: 12, text: "You've created self-imposed "rules" like which side of the bed you sleep on or what shirt goes with what socks." },
-                { id: 13, text: "You feel deeply unsettled when something is done differently — even something small, like folding towels the "wrong" way." },
+                { id: 12, text: "You've created self-imposed 'rules' like which side of the bed you sleep on or what shirt goes with what socks." },
+                { id: 13, text: "You feel deeply unsettled when something is done differently — even something small, like folding towels the 'wrong' way." },
                 { id: 14, text: "You rewatch shows, replay songs, or read the same book again because it's familiar and your brain finds it soothing." },
                 { id: 15, text: "You design systems — planners, charts, checklists — to make life easier to follow and harder to forget." }
               ].map(({ id, text }) => (
@@ -171,9 +178,9 @@ export default function RoutinePage() {
             <div className="space-y-3">
               {[
                 { id: 21, text: "Been called dramatic or inflexible just because your routine got disrupted and your nervous system went haywire." },
-                { id: 22, text: "You act "chill" about sudden changes in public, then melt down later when you're finally alone." },
+                { id: 22, text: "You act 'chill' about sudden changes in public, then melt down later when you're finally alone." },
                 { id: 23, text: "You feel low-key embarrassed about how badly you need routine to function — like it's a secret you have to hide." },
-                { id: 24, text: "You've said yes to last-minute things trying to "be spontaneous" — and ended up exhausted, overwhelmed, and mentally fried." },
+                { id: 24, text: "You've said yes to last-minute things trying to 'be spontaneous' — and ended up exhausted, overwhelmed, and mentally fried." },
                 { id: 25, text: "You're your most capable, creative, and emotionally stable when your routines are predictable — not when you're forced to wing it." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
@@ -257,6 +264,7 @@ export default function RoutinePage() {
           </div>
         </div>
       </div>
+      <QuizNavButton currentSlug={currentSlug} />
     </div>
   );
 }

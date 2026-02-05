@@ -1,10 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { QuizNavButton } from '@/components/QuizNavButton';
+import { saveQuizScore } from '@/utils/quiz-storage';
 
 export default function SocialCuesPage() {
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+  const currentSlug = 'social-cues';
 
   const toggleCheck = ({ id }: { id: number }) => {
     setCheckedItems(prev => ({
@@ -14,6 +17,10 @@ export default function SocialCuesPage() {
   };
 
   const checkedCount = Object.values(checkedItems).filter(Boolean).length;
+
+  useEffect(() => {
+    saveQuizScore({ symptomSlug: currentSlug, score: checkedCount });
+  }, [checkedCount]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 py-8 px-4">
@@ -140,7 +147,7 @@ export default function SocialCuesPage() {
               {[
                 { id: 16, text: "You struggle to maintain eye contact — or overdo it — because it never feels truly natural or comfortable." },
                 { id: 17, text: "You don't look at the camera on Zoom; you look at yourself to monitor your facial expression and body language." },
-                { id: 18, text: "You often feel like you're "too much" or "too blunt," even when you're just being honest or enthusiastic." },
+                { id: 18, text: "You often feel like you're 'too much' or 'too blunt,' even when you're just being honest or enthusiastic." },
                 { id: 19, text: "You get accused of missing social cues, being rude, or seeming cold — when you're simply overwhelmed or unsure." },
                 { id: 20, text: "You feel pressure to track tone, body language, your own face, and the topic — and still respond meaningfully." }
               ].map(({ id, text }) => (
@@ -257,6 +264,7 @@ export default function SocialCuesPage() {
           </div>
         </div>
       </div>
+      <QuizNavButton currentSlug={currentSlug} />
     </div>
   );
 }

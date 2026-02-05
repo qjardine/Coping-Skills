@@ -1,10 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { QuizNavButton } from '@/components/QuizNavButton';
+import { saveQuizScore } from '@/utils/quiz-storage';
 
 export default function HyperfixationPage() {
   const [checkedItems, setCheckedItems] = useState<{ [key: number]: boolean }>({});
+  const currentSlug = 'hyperfixation';
 
   const toggleCheck = ({ id }: { id: number }) => {
     setCheckedItems(prev => ({
@@ -14,6 +17,10 @@ export default function HyperfixationPage() {
   };
 
   const checkedCount = Object.values(checkedItems).filter(Boolean).length;
+
+  useEffect(() => {
+    saveQuizScore({ symptomSlug: currentSlug, score: checkedCount });
+  }, [checkedCount]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 py-8 px-4">
@@ -257,6 +264,7 @@ export default function HyperfixationPage() {
           </div>
         </div>
       </div>
+      <QuizNavButton currentSlug={currentSlug} />
     </div>
   );
 }
