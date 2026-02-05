@@ -20,7 +20,7 @@ export function QuizNavButton({ currentSlug }: QuizNavButtonProps) {
   };
 
   return (
-    <div className="fixed bottom-8 right-8 z-50">
+    <div className="fixed bottom-24 right-8 z-50">
       <button
         onClick={handleNext}
         className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg shadow-lg transition-colors flex items-center gap-2"
