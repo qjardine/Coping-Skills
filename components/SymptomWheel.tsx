@@ -40,7 +40,6 @@ function wrapText({ text, maxWidth }: { text: any; maxWidth: number }) {
     let word;
     let line: string[] = [];
     let lineNumber = 0;
-    const lineHeight = 1.1;
     let tspan = textElement.text(null).append('tspan').attr('x', 0).attr('y', 0);
     
     while ((word = words.pop())) {
@@ -54,17 +53,10 @@ function wrapText({ text, maxWidth }: { text: any; maxWidth: number }) {
         lineNumber++;
         tspan = textElement.append('tspan')
           .attr('x', 0)
-          .attr('y', 0)
+          .attr('y', 12)
           .text(word);
       }
     }
-    
-    // Center the wrapped text vertically
-    const numLines = lineNumber + 1;
-    const offset = -(numLines - 1) * lineHeight / 2;
-    textElement.selectAll('tspan').each(function(this: any, i: number) {
-      d3.select(this).attr('dy', (offset + i * lineHeight) + 'em');
-    });
   });
 }
 
