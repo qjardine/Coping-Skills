@@ -31,16 +31,16 @@ export default function SymptomQuizPage() {
 
               <div className="p-4 bg-green-50 rounded border border-green-200 mb-6">
                 <p className="text-gray-700 mb-3">
-                  This interactive tool helps you explore common neurodivergent experiences across ADHD, Autism, Anxiety, and overlapping traits.
+                  This interactive tool helps you explore common neurodivergent experiences across ADHD, Autism, and overlapping traits.
                 </p>
                 <p className="text-gray-700 mb-3">
                   <strong>How it works:</strong>
                 </p>
                 <ol className="list-decimal list-inside space-y-2 text-gray-700 ml-4">
-                  <li>Rate symptoms on the wheel (1-5 scale) by clicking ring levels</li>
-                  <li>Click any section to read detailed real-life examples</li>
-                  <li>Check the boxes next to experiences that resonate with you</li>
-                  <li>Return to the wheel to explore other symptoms</li>
+                  <li>Rate symptoms on the wheel (1-5 scale) by clicking the ring levels</li>
+                  <li>Click on label names or use the button grid to explore detailed examples</li>
+                  <li>Check boxes next to experiences that resonate with you</li>
+                  <li>Return to explore other symptoms</li>
                 </ol>
                 <p className="text-gray-700 text-sm mt-3">
                   <strong>Rating guide:</strong> 1 = rarely/minimal impact, 5 = very often/significant impact

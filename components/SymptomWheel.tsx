@@ -6,9 +6,10 @@ import * as d3 from 'd3';
 
 interface SymptomWheelProps {
   onSectionClick?: ({ section }: { section: string }) => void;
+  showButtonGrid?: boolean;
 }
 
-const symptoms = [
+export const symptoms = [
   { name: 'Task Paralysis', color: '#FF6347', category: 'ADHD', path: '/pages/neurodivergent/symptom-quiz/task-paralysis' },
   { name: 'Object Permanence', color: '#FF7F50', category: 'ADHD', path: '/pages/neurodivergent/symptom-quiz/object-permanence' },
   { name: 'Impulsivity', color: '#FF9A76', category: 'ADHD', path: '/pages/neurodivergent/symptom-quiz/impulsivity' },
@@ -31,7 +32,7 @@ const symptoms = [
   { name: 'Repetitive Behavior', color: '#DC143C', category: 'AUTISM', path: '/pages/neurodivergent/symptom-quiz/repetitive-behavior' },
 ];
 
-export const SymptomWheel = ({ onSectionClick }: SymptomWheelProps) => {
+export const SymptomWheel = ({ onSectionClick, showButtonGrid = true }: SymptomWheelProps) => {
   const svgRef = useRef<SVGSVGElement>(null);
   const router = useRouter();
   const [levels, setLevels] = useState<number[]>(new Array(symptoms.length).fill(0));
@@ -94,11 +95,6 @@ export const SymptomWheel = ({ onSectionClick }: SymptomWheelProps) => {
             const newLevels = [...levels];
             newLevels[symptomIndex] = level;
             setLevels(newLevels);
-            
-            if (onSectionClick) {
-              onSectionClick({ section: symptom.name });
-            }
-            router.push(symptom.path);
           })
           .on('mouseover', function() {
             d3.select(this)
@@ -131,7 +127,24 @@ export const SymptomWheel = ({ onSectionClick }: SymptomWheelProps) => {
         .attr('font-size', '11px')
         .attr('font-weight', 'bold')
         .attr('fill', '#000000')
-        .style('pointer-events', 'none')
+        .style('cursor', 'pointer')
+        .style('pointer-events', 'all')
+        .on('click', function() {
+          if (onSectionClick) {
+            onSectionClick({ section: symptom.name });
+          }
+          router.push(symptom.path);
+        })
+        .on('mouseover', function() {
+          d3.select(this)
+            .attr('fill', '#0066CC')
+            .attr('text-decoration', 'underline');
+        })
+        .on('mouseout', function() {
+          d3.select(this)
+            .attr('fill', '#000000')
+            .attr('text-decoration', 'none');
+        })
         .text(symptom.name);
     });
 
@@ -188,11 +201,15 @@ export const SymptomWheel = ({ onSectionClick }: SymptomWheelProps) => {
         </div>
         <div className="p-4 bg-blue-50 rounded border border-blue-200">
           <p className="text-sm text-gray-700 mb-2">
-            <strong>How to use:</strong> Click on any ring level of a symptom section to rate how much you relate (1-5 scale). 
-            Then click through to explore detailed real-life examples and check off which experiences resonate with you.
+            <strong>How to use:</strong>
           </p>
+          <ul className="text-sm text-gray-700 space-y-1 ml-4 list-disc">
+            <li>Click on any <strong>ring level</strong> to rate how much you relate (1-5 scale)</li>
+            <li>Click on a <strong>label name</strong> to explore detailed examples for that symptom</li>
+            <li>Or use the <strong>button grid below</strong> to navigate to any symptom page</li>
+          </ul>
           <p className="text-xs text-gray-600 mt-2">
-            <strong>Levels:</strong> 1 = rarely/minimal, 5 = very often/significant impact
+            <strong>Rating levels:</strong> 1 = rarely/minimal, 5 = very often/significant impact
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 text-xs">
@@ -206,6 +223,36 @@ export const SymptomWheel = ({ onSectionClick }: SymptomWheelProps) => {
             <strong>OVERLAP:</strong> Purple/Blue tones
           </div>
         </div>
+
+        {showButtonGrid && (
+          <div className="mt-8">
+            <h3 className="text-lg font-semibold mb-4 text-gray-800 text-center">
+              Check Your Symptoms
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              {symptoms.map((symptom, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    if (onSectionClick) {
+                      onSectionClick({ section: symptom.name });
+                    }
+                    router.push(symptom.path);
+                  }}
+                  className="p-3 rounded-lg border-2 transition-all hover:scale-105 hover:shadow-lg text-left"
+                  style={{
+                    backgroundColor: `${symptom.color}20`,
+                    borderColor: symptom.color,
+                    color: '#000000'
+                  }}
+                >
+                  <div className="font-semibold text-sm">{symptom.name}</div>
+                  <div className="text-xs mt-1 opacity-70">{symptom.category}</div>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
