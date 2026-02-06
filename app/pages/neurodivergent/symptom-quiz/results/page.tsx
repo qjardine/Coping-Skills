@@ -4,26 +4,17 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { BackButton } from '@/components/shared/BackButton';
-import { SymptomWheel } from '@/components/SymptomWheel';
 import { getQuizScores, calculateLevel, symptomNames, symptomOrder, clearQuizScores, getQuizProgress } from '@/utils/quiz-storage';
 
 export default function QuizResultsPage() {
   const router = useRouter();
   const [scores, setScores] = useState<{ [key: string]: number }>({});
-  const [levels, setLevels] = useState<number[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     // Load scores from localStorage
     const quizScores = getQuizScores();
     setScores(quizScores);
-
-    // Calculate levels for the wheel (in the same order as symptomOrder)
-    const calculatedLevels = symptomOrder.map(slug => {
-      const score = quizScores[slug] || 0;
-      return calculateLevel({ checkedCount: score });
-    });
-    setLevels(calculatedLevels);
     setIsLoading(false);
   }, []);
 
@@ -88,22 +79,6 @@ export default function QuizResultsPage() {
                   Complete all symptoms for the most accurate profile.
                 </p>
               )}
-            </div>
-
-            {/* Symptom Wheel */}
-            <div>
-              <h2 className="text-2xl font-semibold mb-6 text-center text-gray-800">
-                Your Symptom Wheel
-              </h2>
-              <div className="flex justify-center">
-                <SymptomWheel initialLevels={levels} showButtonGrid={false} />
-              </div>
-              <div className="mt-4 p-4 bg-purple-50 rounded border border-purple-200">
-                <p className="text-sm text-gray-700 text-center">
-                  <strong>Reading your wheel:</strong> Darker/fuller rings indicate higher symptom scores. 
-                  Each level represents roughly 5 checked experiences (Level 1 = 1-5 checks, Level 5 = 21-25 checks).
-                </p>
-              </div>
             </div>
 
             {/* Top Symptoms */}
