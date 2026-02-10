@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { BackButton } from '@/components/shared/BackButton';
+import { CBTTriangle } from '@/components/CBTTriangle';
 
 export default function CBTBasicsPage() {
   const router = useRouter();
@@ -79,6 +80,8 @@ export default function CBTBasicsPage() {
                   Change one corner, and the others shift too
                 </p>
               </div>
+
+              <CBTTriangle />
             </div>
 
             {/* Section 2 */}
