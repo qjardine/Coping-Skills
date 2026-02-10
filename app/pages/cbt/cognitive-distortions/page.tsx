@@ -28,11 +28,22 @@ export default function CognitiveDistortionsPage() {
                 Cognitive distortions are predictable "thinking traps"—habits your mind uses (especially under stress) that can make situations feel more threatening, hopeless, or personal than they really are. CBT treats them as patterns to notice and test, not as "the truth."
               </p>
               
-              <div className="p-4 bg-blue-50 rounded border border-blue-200">
+              <div className="p-4 bg-blue-50 rounded border border-blue-200 mb-4">
                 <p className="text-gray-700 font-semibold">Use this page when:</p>
                 <p className="text-gray-700 mt-2">
                   you're spiraling, stuck in shame, can't stop spinning, or your brain is doing "worst-case math."
                 </p>
+              </div>
+
+              <div className="flex justify-center">
+                <a
+                  href="/assets/Worksheets/cognitive-distortions.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-6 py-3 bg-teal-600 hover:bg-teal-700 text-white font-semibold rounded-lg shadow-lg transition-colors duration-200"
+                >
+                  📄 Download Worksheet (PDF)
+                </a>
               </div>
             </div>
 
