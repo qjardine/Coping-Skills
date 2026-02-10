@@ -122,7 +122,6 @@ const categories: Record<string, Category> = {
       { label: 'Behavioral Activation', path: '/pages/cbt/behavioral-activation' },
       { label: 'Response Prevention', path: '/pages/cbt/response-prevention' },
       { label: 'Problem-Solving', path: '/pages/cbt/problem-solving' },
-      { label: 'Anxiety & Body Skills', path: '/pages/cbt/anxiety-body' },
       { label: 'Sleep & CBT-I Basics', path: '/pages/cbt/sleep-basics' },
       { label: 'Track & Review Progress', path: '/pages/cbt/track-and-review' },
       { label: 'CBT Relapse Prevention', path: '/pages/cbt/relapse-prevention' },
