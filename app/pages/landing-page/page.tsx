@@ -113,6 +113,7 @@ const categories: Record<string, Category> = {
       { label: 'Levels of Cognition', path: '/pages/cbt/levels' },
       { label: 'Automatic Thoughts', path: '/pages/cbt/automatic-thoughts' },
       { label: 'Cognitive Distortions', path: '/pages/cbt/cognitive-distortions' },
+      { label: 'Thoughts on Trial', path: '/pages/cbt/thoughts-on-trial' },
       { label: 'Thought Records', path: '/pages/cbt/thought-record' },
       { label: 'Cognitive Restructuring', path: '/pages/cbt/cognitive-restructuring' },
       { label: 'Core Beliefs & Schemas', path: '/pages/cbt/core-beliefs' },
