@@ -102,6 +102,29 @@ const categories: Record<string, Category> = {
       { label: 'Chain Analysis', path: '/pages/chain-analysis' },
       { label: 'Self-Harm Support Hub', path: '/pages/self-harm' },
       { label: 'Addiction Recovery Hub', path: '/pages/addiction' },
+      { label: 'Relapse Prevention Plan', path: '/pages/crisis/relapse-prevention' },
+    ],
+  },
+  'cbt': {
+    label: 'Cognitive Behavioral Therapy (CBT)',
+    pages: [
+      { label: 'CBT Hub', path: '/pages/cbt' },
+      { label: 'CBT Basics', path: '/pages/cbt/basics' },
+      { label: 'Levels of Cognition', path: '/pages/cbt/levels' },
+      { label: 'Automatic Thoughts', path: '/pages/cbt/automatic-thoughts' },
+      { label: 'Cognitive Distortions', path: '/pages/cbt/cognitive-distortions' },
+      { label: 'Thought Records', path: '/pages/cbt/thought-record' },
+      { label: 'Cognitive Restructuring', path: '/pages/cbt/cognitive-restructuring' },
+      { label: 'Core Beliefs & Schemas', path: '/pages/cbt/core-beliefs' },
+      { label: 'Behavioral Experiments', path: '/pages/cbt/behavioral-experiments' },
+      { label: 'Behavioral Activation', path: '/pages/cbt/behavioral-activation' },
+      { label: 'Graded Exposure', path: '/pages/cbt/graded-exposure' },
+      { label: 'Response Prevention', path: '/pages/cbt/response-prevention' },
+      { label: 'Problem-Solving', path: '/pages/cbt/problem-solving' },
+      { label: 'Anxiety & Body Skills', path: '/pages/cbt/anxiety-body' },
+      { label: 'Sleep & CBT-I Basics', path: '/pages/cbt/sleep-basics' },
+      { label: 'Track & Review Progress', path: '/pages/cbt/track-and-review' },
+      { label: 'CBT Relapse Prevention', path: '/pages/cbt/relapse-prevention' },
     ],
   },
   'neurodivergent': {
@@ -182,6 +205,8 @@ export default function LandingPage() {
                     return 'bg-green-50 border-green-200 hover:bg-green-100';
                   case 'crisis-skills':
                     return 'bg-red-50 border-red-200 hover:bg-red-100';
+                  case 'cbt':
+                    return 'bg-teal-50 border-teal-200 hover:bg-teal-100';
                   case 'neurodivergent':
                     return 'bg-indigo-50 border-indigo-200 hover:bg-indigo-100';
                   case 'flowchart':
@@ -203,6 +228,8 @@ export default function LandingPage() {
                     return 'text-green-800';
                   case 'crisis-skills':
                     return 'text-red-800';
+                  case 'cbt':
+                    return 'text-teal-800';
                   case 'neurodivergent':
                     return 'text-indigo-800';
                   default:
@@ -222,6 +249,8 @@ export default function LandingPage() {
                     return 'bg-green-600 hover:bg-green-700 text-white';
                   case 'crisis-skills':
                     return 'bg-red-600 hover:bg-red-700 text-white';
+                  case 'cbt':
+                    return 'bg-teal-600 hover:bg-teal-700 text-white';
                   case 'neurodivergent':
                     return 'bg-indigo-600 hover:bg-indigo-700 text-white';
                   default:
