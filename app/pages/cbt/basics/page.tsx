@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { BackButton } from '@/components/shared/BackButton';
-import { CBTTriangle } from '@/components/CBTTriangle';
+import Image from 'next/image';
 
 export default function CBTBasicsPage() {
   const router = useRouter();
@@ -81,7 +81,15 @@ export default function CBTBasicsPage() {
                 </p>
               </div>
 
-              <CBTTriangle />
+              <div className="flex justify-center my-6">
+                <Image
+                  src="/assets/cbt-triangle.png"
+                  alt="CBT Triangle showing the relationship between Thoughts, Feelings, and Behaviors"
+                  width={800}
+                  height={600}
+                  className="rounded-lg"
+                />
+              </div>
             </div>
 
             {/* Section 2 */}
