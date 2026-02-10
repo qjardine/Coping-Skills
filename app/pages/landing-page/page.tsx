@@ -116,6 +116,7 @@ const categories: Record<string, Category> = {
       { label: 'Thoughts on Trial', path: '/pages/cbt/thoughts-on-trial' },
       { label: 'Thought Records', path: '/pages/cbt/thought-record' },
       { label: 'Cognitive Restructuring', path: '/pages/cbt/cognitive-restructuring' },
+      { label: 'CBT Worrying', path: '/pages/cbt/worrying' },
       { label: 'Core Beliefs & Schemas', path: '/pages/cbt/core-beliefs' },
       { label: 'Behavioral Experiments', path: '/pages/cbt/behavioral-experiments' },
       { label: 'Behavioral Activation', path: '/pages/cbt/behavioral-activation' },
