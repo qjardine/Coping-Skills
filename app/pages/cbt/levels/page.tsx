@@ -499,7 +499,7 @@ export default function LevelsOfCognitionPage() {
                         value={layersData.ruleSoftener}
                         onChange={(e) => updateField({ field: 'ruleSoftener', value: e.target.value })}
                         className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
-                        placeholder='"It would be nice to ___, but I don\'t have to ___."'
+                        placeholder="It would be nice to ___, but I don't have to ___."
                       />
                     </div>
 

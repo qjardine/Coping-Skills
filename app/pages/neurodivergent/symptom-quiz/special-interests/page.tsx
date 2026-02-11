@@ -152,7 +152,7 @@ export default function SpecialInterestsPage() {
                 { id: 17, text: "You feel anchored and emotionally steady when you're immersed in your interest — like the rest of the world goes quiet." },
                 { id: 18, text: "You seek it out during stress, burnout, or anxiety because it brings predictability, structure, and a sense of control." },
                 { id: 19, text: "You've created rituals around your interest — specific times, tools, or habits that help you access the calm it brings." },
-                { id: 20, text: "You don't "use" your special interest — you need it. It's your refuge, reset button, and favourite form of self-care." }
+                { id: 20, text: "You don't 'use' your special interest — you need it. It's your refuge, reset button, and favourite form of self-care." }
               ].map(({ id, text }) => (
                 <div key={id} className="flex items-start space-x-3 p-3 bg-gray-50 rounded hover:bg-gray-100 transition-colors">
                   <input
